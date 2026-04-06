@@ -1,5 +1,5 @@
 ---
-name: clean-code-craft
+name: javascript-clean-code
 description: >
   The art of writing JavaScript and TypeScript code that humans enjoy reading.
   This skill teaches AI coding agents how to write clean, consistent, reviewable
