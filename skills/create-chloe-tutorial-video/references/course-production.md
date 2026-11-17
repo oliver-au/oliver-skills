@@ -1,0 +1,33 @@
+# Producing a course from a textbook
+
+Use this only for a request spanning multiple lessons or sections.
+
+## Coverage and correctness
+
+Inventory the source sections before authoring. Keep a mapping from each source model to its video, worked example, fresh practice, and later review question. Treat the book's labels as its teaching taxonomy unless an official source establishes otherwise. Check current exam dates and format against the relevant official authority.
+
+Read tables and diagrams as well as prose. Solve the examples independently. Record repairs to ambiguous rules, missing assumptions, incorrect arithmetic, and conflicting answer keys. For reasoning problems, preserve exact quantifiers, inclusive/exclusive alternatives, exhaustive route assumptions, position/facing conventions, interval boundaries, and the order of operations.
+
+For a large question bank, separate authoring from a fresh solution pass. Verify all four options: one intended best answer, meaningful distractors, and enough information in the stem or displayed diagram. Enumeration is useful for finite arrangements, truth tables, cube orientations, and minimum-cost combinations.
+
+## Keep the explanation visual
+
+Reuse the visual language, not just its text boxes. Author a mechanism for the concept: a moving state, disappearing candidate, geometric transformation, cumulative quantity, or tested counterexample. A shared shell is useful, but the worked proof should make the relevant relationship visible. Inspect full-size frames where labels are dense.
+
+A hook must connect to a question the lesson or its practice actually resolves. Do not disclose a later answer in the hook, prediction caption, colour, or preloaded visual. A short quiet recap is acceptable when it is intentionally a reading/reflection scene; missing speech is not.
+
+## Voice consistency and provenance
+
+Use the user's latest voice choice across the course. Reuse a clip only when its spoken text, voice, and generation settings match. Filenames alone do not establish this: keep a content hash or equivalent provenance. Regenerate corrected narration and derive durations and captions again. A final build should fail on missing, stale, or wrong-voice media rather than silently estimating its duration.
+
+## Review each lesson
+
+Keep a review ledger by lesson ID. Inspect the opening, worked mechanism, prediction period, reveal boundary, and recap for every requested lesson. Contact sheets help coverage; open the original frame whenever text or geometry cannot be judged at that scale. Inspect motion at multiple frames when the operation itself carries the explanation. Re-render affected lessons after corrections.
+
+Measure and decode every narration file. Check it fits its scene with a lead and tail and that caption intervals remain in range. Distinguish these technical checks from listening; do not report an audition that was not performed.
+
+## Learning website
+
+For a requested course site, separate watching, practice, and delayed retrieval. Watching a video is not evidence of mastery. Record whether a question was attempted before its solution, whether reasoning was explained, and whether a review was delayed. Describe self-reported explain-back checks honestly; a checkbox does not grade a proof. Offer official or genuinely unseen mixed practice as the next benchmark.
+
+Preserve old sites and course files. Use a new hosting identity when a new site is requested. Keep public assets self-contained. Browser-local progress should say where it is stored; an export/import backup can support another computer without a personal-data backend. Verify playback, question feedback, persistence, navigation, responsive layout, and the actual hosted assets before handoff.

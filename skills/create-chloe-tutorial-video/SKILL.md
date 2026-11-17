@@ -13,6 +13,8 @@ Use the questions, diagrams, answer choices, correct answers, knowledge points, 
 
 When unspecified, assume English, learners aged about 10–12, Chloe Selective branding, one main idea per short lesson, and roughly 90–120 seconds. State assumptions briefly and continue. Resolve a missing diagram, materially ambiguous question, or contradictory answer before explaining it. Solve each problem independently; a supplied answer key is evidence to check, not a reason to preserve a mistake.
 
+For a whole textbook or multi-section course, also read [course production](references/course-production.md).
+
 Read [the style specification](references/style.md) before authoring. Use [the lesson patterns](references/lesson-patterns.md) to choose a meaningful visual explanation. Keep the user's requested subject and difficulty; do not substitute one of the bundled examples for their question.
 
 ## Build from the reusable source

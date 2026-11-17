@@ -25,3 +25,7 @@ Test play/pause, replay, scrubbing, and lesson selection through the actual brow
 For a public review page, verify the hosted page loads the new lesson and its assets. Keep narration, fonts, and assets within the standalone build. Do not ship local paths, missing localhost resources, unrelated course files, secrets, or a copied hosting identity. Preserve the requested audience; no publication is implied by an ordinary video-generation request.
 
 State only checks actually performed. A successful build does not prove visual quality, and a screenshot does not prove audio playback.
+
+## A whole course or textbook
+
+When the user requests a course, use [course production](course-production.md). A spot-check of a few attractive scenes does not support a claim that every lesson was reviewed. Keep a per-lesson record of source coverage, answer checks, inspected frames, and unresolved limits.
