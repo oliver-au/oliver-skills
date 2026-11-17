@@ -12,9 +12,9 @@ For a large question bank, separate authoring from a fresh solution pass. Verify
 
 ## Keep the explanation visual
 
-Reuse the visual language, not just its text boxes. Author a mechanism for the concept: a moving state, disappearing candidate, geometric transformation, cumulative quantity, or tested counterexample. A shared shell is useful, but the worked proof should make the relevant relationship visible. Inspect full-size frames where labels are dense.
+Reuse the visual language, not just its text boxes. Author a mechanism for the concept: a moving state, disappearing candidate, geometric transformation, cumulative quantity, or tested counterexample. A shared shell is useful, but the worked proof should make the relevant relationship visible. Inspect full-size frames where labels are dense. Keep the complete question and all needed givens visible during a quiet prediction hold after captions disappear. Use arrows for relationships the evidence actually supports; explicitly label proposed causes and uncertain alternatives. Geometric boards need square cells when shape matters, and states need direct object labels.
 
-A hook must connect to a question the lesson or its practice actually resolves. Do not disclose a later answer in the hook, prediction caption, colour, or preloaded visual. A short quiet recap is acceptable when it is intentionally a reading/reflection scene; missing speech is not.
+A hook must connect to a question the video itself resolves, including any in-video practice. A scenario that exists only in a separate website quiz leaves the standalone video without its promised payoff. Do not disclose a later answer in the hook, prediction caption, colour, or preloaded visual. A short quiet recap is acceptable when it is intentionally a reading/reflection scene; missing speech is not.
 
 ## Voice consistency and provenance
 
