@@ -1,0 +1,29 @@
+{
+  "name": "chloe-tutorial-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22.13.0"},
+  "scripts": {
+    "dev": "remotion studio src/index.ts --no-open",
+    "typecheck": "tsc --noEmit",
+    "build:player": "node scripts/build-player.mjs",
+    "serve:player": "node scripts/serve-player.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "5.3.0",
+    "@remotion/captions": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/media": "4.0.539",
+    "@remotion/player": "4.0.539",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "esbuild": "0.28.1",
+    "typescript": "5.9.3"
+  }
+}

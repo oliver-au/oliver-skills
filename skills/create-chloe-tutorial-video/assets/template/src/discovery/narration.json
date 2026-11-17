@@ -1,0 +1,604 @@
+{
+  "math-hook": {
+    "text": "A price goes up by twenty percent, then down by twenty percent. Are we back where we started? It feels as if those changes should cancel. But watch what happens.",
+    "src": "discovery/math-hook.m4a",
+    "duration": 11.7,
+    "captions": [
+      {
+        "text": "A price goes up by twenty percent, then down by twenty percent.",
+        "startMs": 100,
+        "endMs": 4700,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Are we back where we started?",
+        "startMs": 4700,
+        "endMs": 7000,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "It feels as if those changes should cancel.",
+        "startMs": 7000,
+        "endMs": 10067,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "But watch what happens.",
+        "startMs": 10067,
+        "endMs": 11600,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "math-predict": {
+    "text": "Start with one hundred dollars. After both changes, is the price one hundred, ninety-six, or eighty dollars? Make your prediction before we test it.",
+    "src": "discovery/math-predict.m4a",
+    "duration": 9.3,
+    "captions": [
+      {
+        "text": "Start with one hundred dollars.",
+        "startMs": 100,
+        "endMs": 1996,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "After both changes, is the price one hundred, ninety-six, or eighty",
+        "startMs": 1996,
+        "endMs": 6167,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "dollars?",
+        "startMs": 6167,
+        "endMs": 6546,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Make your prediction before we test it.",
+        "startMs": 6546,
+        "endMs": 9200,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "math-rise": {
+    "text": "First, the price rises by twenty percent. Twenty percent of one hundred is twenty. Add those twenty dollars, and the new price is one hundred and twenty dollars.",
+    "src": "discovery/math-rise.m4a",
+    "duration": 10.9,
+    "captions": [
+      {
+        "text": "First, the price rises by twenty percent.",
+        "startMs": 100,
+        "endMs": 2775,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Twenty percent of one hundred is twenty.",
+        "startMs": 2775,
+        "endMs": 5450,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Add those twenty dollars, and the new price is one hundred and twenty",
+        "startMs": 5450,
+        "endMs": 10418,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "dollars.",
+        "startMs": 10418,
+        "endMs": 10800,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "math-fall": {
+    "text": "Now the price falls by twenty percent. But twenty percent of what? The new price: one hundred and twenty dollars. One fifth of that is twenty-four. Subtract twenty-four, and we land at ninety-six dollars.",
+    "src": "discovery/math-fall.m4a",
+    "duration": 13.2,
+    "captions": [
+      {
+        "text": "Now the price falls by twenty percent.",
+        "startMs": 100,
+        "endMs": 2776,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "But twenty percent of what?",
+        "startMs": 2776,
+        "endMs": 4688,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The new price: one hundred and twenty dollars.",
+        "startMs": 4688,
+        "endMs": 7747,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "One fifth of that is twenty-four.",
+        "startMs": 7747,
+        "endMs": 10041,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Subtract twenty-four, and we land at ninety-six dollars.",
+        "startMs": 10041,
+        "endMs": 13100,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "math-insight": {
+    "text": "The percentages match. Their starting amounts do not. We added twenty dollars, then removed twenty-four. That leaves us four dollars below the start. Always ask: percent of what?",
+    "src": "discovery/math-insight.m4a",
+    "duration": 10.9,
+    "captions": [
+      {
+        "text": "The percentages match.",
+        "startMs": 100,
+        "endMs": 1246,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Their starting amounts do not.",
+        "startMs": 1246,
+        "endMs": 3157,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "We added twenty dollars, then removed twenty-four.",
+        "startMs": 3157,
+        "endMs": 5832,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "That leaves us four dollars below the start.",
+        "startMs": 5832,
+        "endMs": 8889,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Always ask: percent of what?",
+        "startMs": 8889,
+        "endMs": 10800,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "math-practice": {
+    "text": "Your turn. A two-hundred-dollar bicycle rises in price by ten percent, then falls by ten percent. Is the final price two hundred, one hundred and ninety-eight, or one hundred and eighty dollars? Pause and work it out.",
+    "src": "discovery/math-practice.m4a",
+    "duration": 14.4,
+    "captions": [
+      {
+        "text": "Your turn.",
+        "startMs": 100,
+        "endMs": 868,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "A two-hundred-dollar bicycle rises in price by ten percent, then falls",
+        "startMs": 868,
+        "endMs": 5089,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "by ten percent.",
+        "startMs": 5089,
+        "endMs": 6241,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Is the final price two hundred, one hundred and ninety-eight, or one",
+        "startMs": 6241,
+        "endMs": 10846,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "hundred and eighty dollars?",
+        "startMs": 10846,
+        "endMs": 12381,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Pause and work it out.",
+        "startMs": 12381,
+        "endMs": 14300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "math-practice-answer": {
+    "text": "The answer is one hundred and ninety-eight dollars. First add twenty, giving two hundred and twenty. Then subtract ten percent of that: twenty-two dollars. Different starting amounts. Different changes.",
+    "src": "discovery/math-practice-answer.m4a",
+    "duration": 11.3,
+    "captions": [
+      {
+        "text": "The answer is one hundred and ninety-eight dollars.",
+        "startMs": 100,
+        "endMs": 3162,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "First add twenty, giving two hundred and twenty.",
+        "startMs": 3162,
+        "endMs": 6224,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Then subtract ten percent of that: twenty-two dollars.",
+        "startMs": 6224,
+        "endMs": 9286,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Different starting amounts.",
+        "startMs": 9286,
+        "endMs": 10434,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Different changes.",
+        "startMs": 10434,
+        "endMs": 11200,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "logic-hook": {
+    "text": "Two, four, eight. These numbers fit my hidden rule. What do you think the rule is? You can test it by choosing another set of three numbers.",
+    "src": "discovery/logic-hook.m4a",
+    "duration": 10.5,
+    "captions": [
+      {
+        "text": "Two, four, eight.",
+        "startMs": 100,
+        "endMs": 1244,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "These numbers fit my hidden rule.",
+        "startMs": 1244,
+        "endMs": 3533,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "What do you think the rule is?",
+        "startMs": 3533,
+        "endMs": 6204,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "You can test it by choosing another set of three numbers.",
+        "startMs": 6204,
+        "endMs": 10400,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "logic-guess": {
+    "text": "Perhaps each number doubles. So you try three, six, twelve. Yes, that fits. It is tempting to stop here. But this test has not separated your guess from other possible rules.",
+    "src": "discovery/logic-guess.m4a",
+    "duration": 12,
+    "captions": [
+      {
+        "text": "Perhaps each number doubles.",
+        "startMs": 100,
+        "endMs": 1623,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "So you try three, six, twelve.",
+        "startMs": 1623,
+        "endMs": 3906,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Yes, that fits.",
+        "startMs": 3906,
+        "endMs": 5048,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "It is tempting to stop here.",
+        "startMs": 5048,
+        "endMs": 7332,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "But this test has not separated your guess from other possible rules.",
+        "startMs": 7332,
+        "endMs": 11900,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "logic-test": {
+    "text": "Try something that could break your guess. Three, five, nine. These numbers do not double. Yet they still fit my rule. So doubling cannot be the whole story.",
+    "src": "discovery/logic-test.m4a",
+    "duration": 10.9,
+    "captions": [
+      {
+        "text": "Try something that could break your guess.",
+        "startMs": 100,
+        "endMs": 2775,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Three, five, nine.",
+        "startMs": 2775,
+        "endMs": 3921,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "These numbers do not double.",
+        "startMs": 3921,
+        "endMs": 5832,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Yet they still fit my rule.",
+        "startMs": 5832,
+        "endMs": 8125,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "So doubling cannot be the whole story.",
+        "startMs": 8125,
+        "endMs": 10800,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "logic-reverse": {
+    "text": "Now reverse the order. Nine, five, three. This set does not fit. The order matters. We are learning more by changing the pattern than by repeating the same kind of example.",
+    "src": "discovery/logic-reverse.m4a",
+    "duration": 12,
+    "captions": [
+      {
+        "text": "Now reverse the order.",
+        "startMs": 100,
+        "endMs": 1623,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Nine, five, three.",
+        "startMs": 1623,
+        "endMs": 2765,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "This set does not fit.",
+        "startMs": 2765,
+        "endMs": 4668,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The order matters.",
+        "startMs": 4668,
+        "endMs": 5810,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "We are learning more by changing the pattern than by repeating the",
+        "startMs": 5810,
+        "endMs": 10377,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "same kind of example.",
+        "startMs": 10377,
+        "endMs": 11900,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "logic-reveal": {
+    "text": "My chosen rule was simply this: each number is larger than the one before it. A few examples cannot prove a unique rule. The useful skill is choosing a test that challenges your idea.",
+    "src": "discovery/logic-reveal.m4a",
+    "duration": 13.2,
+    "captions": [
+      {
+        "text": "My chosen rule was simply this: each number is larger than the one",
+        "startMs": 100,
+        "endMs": 5071,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "before it.",
+        "startMs": 5071,
+        "endMs": 5835,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "A few examples cannot prove a unique rule.",
+        "startMs": 5835,
+        "endMs": 8894,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The useful skill is choosing a test that challenges your idea.",
+        "startMs": 8894,
+        "endMs": 13100,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "logic-practice": {
+    "text": "Try that skill on a claim: all squares are blue. Which would disprove it? A blue square, a red circle, or a red square? Pause and choose the strongest test.",
+    "src": "discovery/logic-practice.m4a",
+    "duration": 11.7,
+    "captions": [
+      {
+        "text": "Try that skill on a claim: all squares are blue.",
+        "startMs": 100,
+        "endMs": 3933,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Which would disprove it?",
+        "startMs": 3933,
+        "endMs": 5467,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "A blue square, a red circle, or a red square?",
+        "startMs": 5467,
+        "endMs": 9300,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Pause and choose the strongest test.",
+        "startMs": 9300,
+        "endMs": 11600,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "logic-practice-answer": {
+    "text": "A red square. It is a square, but it is not blue. One counterexample is enough to disprove this claim. Do not just look for support. Look for what could prove you wrong.",
+    "src": "discovery/logic-practice-answer.m4a",
+    "duration": 12.8,
+    "captions": [
+      {
+        "text": "A red square.",
+        "startMs": 100,
+        "endMs": 1245,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "It is a square, but it is not blue.",
+        "startMs": 1245,
+        "endMs": 4682,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "One counterexample is enough to disprove this claim.",
+        "startMs": 4682,
+        "endMs": 7736,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Do not just look for support.",
+        "startMs": 7736,
+        "endMs": 10027,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Look for what could prove you wrong.",
+        "startMs": 10027,
+        "endMs": 12700,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  }
+}

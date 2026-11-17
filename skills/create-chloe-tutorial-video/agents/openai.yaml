@@ -1,0 +1,6 @@
+interface:
+  display_name: "Chloe Tutorial Video"
+  short_description: "Turn questions into narrated Chloe-style lessons"
+  default_prompt: "Use $create-chloe-tutorial-video to turn my questions and knowledge points into a narrated Chloe lesson with animated reasoning and a practice question."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,30 @@
+{
+  "title": "Why the denominators do not add",
+  "subject": "Mathematical reasoning",
+  "audience": "Year 6, ages 10–12",
+  "language": "English",
+  "knowledgePoints": [
+    "Fractions can be added when they describe equal-sized parts of the same whole.",
+    "A common denominator renames the parts without changing the quantities."
+  ],
+  "questions": [
+    {
+      "prompt": "Mia eats 1/3 of a pizza and Noah eats 1/4 of the same pizza. What fraction did they eat altogether?",
+      "options": {"A": "2/7", "B": "7/12", "C": "1/12"},
+      "answer": "B",
+      "reasoning": "1/3 = 4/12 and 1/4 = 3/12, so together they ate 7/12.",
+      "misconception": "Adding numerators and denominators separately gives 2/7, but that changes the size of the parts."
+    }
+  ],
+  "practice": {
+    "prompt": "A jug is filled with 1/2 litre and then another 1/6 litre. How much water is in the jug?",
+    "answer": "2/3 litre",
+    "reasoning": "1/2 = 3/6, so 3/6 + 1/6 = 4/6 = 2/3."
+  },
+  "preferences": {
+    "approximateDurationSeconds": 110,
+    "predictionPauseSeconds": 4,
+    "narration": true,
+    "delivery": "local interactive preview"
+  }
+}
