@@ -1,0 +1,566 @@
+{
+  "cube-hook": {
+    "text": "Look at the star and the heart. When this paper net folds, will those two faces be opposite?",
+    "src": "discovery/cube-hook.m4a",
+    "duration": 7.2,
+    "captions": [
+      {
+        "text": "Look at the star and the heart.",
+        "startMs": 100,
+        "endMs": 2822,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "When this paper net folds, will those two faces be opposite?",
+        "startMs": 2822,
+        "endMs": 7100,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-predict": {
+    "text": "So when we fold it up, which face ends up opposite the star? It feels obvious. The heart! They're the furthest apart. But is it the heart, the triangle, the diamond or the plus? Lock in your answer.",
+    "src": "discovery/cube-predict.m4a",
+    "duration": 15.2,
+    "captions": [
+      {
+        "text": "So when we fold it up, which face ends up opposite the star?",
+        "startMs": 100,
+        "endMs": 5232,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "It feels obvious.",
+        "startMs": 5232,
+        "endMs": 6416,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The heart!",
+        "startMs": 6416,
+        "endMs": 7205,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "They're the furthest apart.",
+        "startMs": 7205,
+        "endMs": 8784,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "But is it the heart, the triangle, the diamond or the plus?",
+        "startMs": 8784,
+        "endMs": 13521,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Lock in your answer.",
+        "startMs": 13521,
+        "endMs": 15100,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-fold": {
+    "text": "Let's fold it and find out. The plus folds back. The diamond folds back. The star and the triangle swing round to make the sides. And the heart closes the back.",
+    "src": "discovery/cube-fold.m4a",
+    "duration": 12.4,
+    "captions": [
+      {
+        "text": "Let's fold it and find out.",
+        "startMs": 100,
+        "endMs": 2461,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The plus folds back.",
+        "startMs": 2461,
+        "endMs": 4035,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The diamond folds back.",
+        "startMs": 4035,
+        "endMs": 5610,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The star and the triangle swing round to make the sides.",
+        "startMs": 5610,
+        "endMs": 9939,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "And the heart closes the back.",
+        "startMs": 9939,
+        "endMs": 12300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-spin": {
+    "text": "Now spin it round, and look at the star and the heart. They're not opposite at all. They touch! They share this edge.",
+    "src": "discovery/cube-spin.m4a",
+    "duration": 9.2,
+    "captions": [
+      {
+        "text": "Now spin it round, and look at the star and the heart.",
+        "startMs": 100,
+        "endMs": 4796,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "They're not opposite at all.",
+        "startMs": 4796,
+        "endMs": 6752,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "They touch!",
+        "startMs": 6752,
+        "endMs": 7535,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "They share this edge.",
+        "startMs": 7535,
+        "endMs": 9100,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-why": {
+    "text": "So what is opposite the star? Watch just three squares: star, circle, triangle. The circle stays put. The star and the triangle fold up like two walls, facing each other. Opposite!",
+    "src": "discovery/cube-why.m4a",
+    "duration": 12.4,
+    "captions": [
+      {
+        "text": "So what is opposite the star?",
+        "startMs": 100,
+        "endMs": 2461,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Watch just three squares: star, circle, triangle.",
+        "startMs": 2461,
+        "endMs": 5216,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The circle stays put.",
+        "startMs": 5216,
+        "endMs": 6790,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The star and the triangle fold up like two walls, facing each other.",
+        "startMs": 6790,
+        "endMs": 11906,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Opposite!",
+        "startMs": 11906,
+        "endMs": 12300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-trap": {
+    "text": "This is the far-apart trap. On this net, the furthest faces share an edge after folding.",
+    "src": "discovery/cube-trap.m4a",
+    "duration": 6.4,
+    "captions": [
+      {
+        "text": "This is the far-apart trap.",
+        "startMs": 100,
+        "endMs": 2038,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "On this net, the furthest faces share an edge after folding.",
+        "startMs": 2038,
+        "endMs": 6300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-rule": {
+    "text": "Here's the shortcut. In any straight line of three squares, skip the middle one. The two ends are opposite. Star, skip circle, triangle. Circle, skip triangle, heart. Plus, skip circle, diamond. Three pairs. Done.",
+    "src": "discovery/cube-rule.m4a",
+    "duration": 13.6,
+    "captions": [
+      {
+        "text": "Here's the shortcut.",
+        "startMs": 100,
+        "endMs": 1282,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "In any straight line of three squares, skip the middle one.",
+        "startMs": 1282,
+        "endMs": 5618,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The two ends are opposite.",
+        "startMs": 5618,
+        "endMs": 7588,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Star, skip circle, triangle.",
+        "startMs": 7588,
+        "endMs": 9165,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Circle, skip triangle, heart.",
+        "startMs": 9165,
+        "endMs": 10741,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Plus, skip circle, diamond.",
+        "startMs": 10741,
+        "endMs": 12318,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Three pairs.",
+        "startMs": 12318,
+        "endMs": 13106,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Done.",
+        "startMs": 13106,
+        "endMs": 13500,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-exam": {
+    "text": "In the test, it might look like this. Which cube could be made from this net? Look at each drawing. Opposite faces cannot both meet at the corner you see. Cross out any cube that shows an opposite pair.",
+    "src": "discovery/cube-exam.m4a",
+    "duration": 15.6,
+    "captions": [
+      {
+        "text": "In the test, it might look like this.",
+        "startMs": 100,
+        "endMs": 3259,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Which cube could be made from this net?",
+        "startMs": 3259,
+        "endMs": 6418,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Look at each drawing.",
+        "startMs": 6418,
+        "endMs": 7997,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Opposite faces cannot both meet at the corner you see.",
+        "startMs": 7997,
+        "endMs": 11946,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Cross out any cube that shows an opposite pair.",
+        "startMs": 11946,
+        "endMs": 15500,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-exam-answer": {
+    "text": "A shows the star and the triangle. Opposite. Out. B shows the plus and the diamond. Out. D shows the circle and the heart. Out. Only C is left, with the star and the heart side by side. Just like we saw.",
+    "src": "discovery/cube-exam-answer.m4a",
+    "duration": 16.9,
+    "captions": [
+      {
+        "text": "A shows the star and the triangle.",
+        "startMs": 100,
+        "endMs": 2883,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Opposite.",
+        "startMs": 2883,
+        "endMs": 3281,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Out.",
+        "startMs": 3281,
+        "endMs": 3679,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "B shows the plus and the diamond.",
+        "startMs": 3679,
+        "endMs": 6462,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Out.",
+        "startMs": 6462,
+        "endMs": 6860,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "D shows the circle and the heart.",
+        "startMs": 6860,
+        "endMs": 9643,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Out.",
+        "startMs": 9643,
+        "endMs": 10040,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Only C is left, with the star and the heart side by side.",
+        "startMs": 10040,
+        "endMs": 15210,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Just like we saw.",
+        "startMs": 15210,
+        "endMs": 16800,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-practice": {
+    "text": "Your turn, with a new net. Which face is opposite G? Is it N, J, K or L? Try the skip-one trick.",
+    "src": "discovery/cube-practice.m4a",
+    "duration": 8.8,
+    "captions": [
+      {
+        "text": "Your turn, with a new net.",
+        "startMs": 100,
+        "endMs": 2445,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Which face is opposite G?",
+        "startMs": 2445,
+        "endMs": 4400,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Is it N, J, K or L?",
+        "startMs": 4400,
+        "endMs": 7136,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Try the skip-one trick.",
+        "startMs": 7136,
+        "endMs": 8700,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-practice-answer": {
+    "text": "H, skip J, K. That's a pair. J, skip K, L. Another pair. Only G and N are left over, so they must be opposite. The answer is N.",
+    "src": "discovery/cube-practice-answer.m4a",
+    "duration": 11.6,
+    "captions": [
+      {
+        "text": "H, skip J, K.",
+        "startMs": 100,
+        "endMs": 1672,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "That's a pair.",
+        "startMs": 1672,
+        "endMs": 2852,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "J, skip K, L.",
+        "startMs": 2852,
+        "endMs": 4424,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Another pair.",
+        "startMs": 4424,
+        "endMs": 5210,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Only G and N are left over, so they must be opposite.",
+        "startMs": 5210,
+        "endMs": 9928,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The answer is N.",
+        "startMs": 9928,
+        "endMs": 11500,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-practice-check": {
+    "text": "Let's fold it to check. G on top. And N, right underneath. These two faces started far apart and finished opposite. On the first net, the star and heart finished touching.",
+    "src": "discovery/cube-practice-check.m4a",
+    "duration": 12.4,
+    "captions": [
+      {
+        "text": "Let's fold it to check.",
+        "startMs": 100,
+        "endMs": 2068,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "G on top.",
+        "startMs": 2068,
+        "endMs": 3248,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "And N, right underneath.",
+        "startMs": 3248,
+        "endMs": 4823,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "These two faces started far apart and finished opposite.",
+        "startMs": 4823,
+        "endMs": 8365,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "On the first net, the star and heart finished touching.",
+        "startMs": 8365,
+        "endMs": 12300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "cube-pocket": {
+    "text": "Three straight squares: the ends are opposite.",
+    "src": "discovery/cube-pocket.m4a",
+    "duration": 2.8,
+    "captions": [
+      {
+        "text": "Three straight squares: the ends are opposite.",
+        "startMs": 100,
+        "endMs": 2700,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  }
+}

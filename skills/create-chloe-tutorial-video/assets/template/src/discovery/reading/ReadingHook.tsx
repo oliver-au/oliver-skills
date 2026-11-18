@@ -6,7 +6,7 @@ export const ReadingHook=()=>{
  const leave=interpolate(time,[2,8],[0,180],ease);
  return <Shell subject="Reading" step="01 / THE MYSTERY">
   <Eyebrow style={{position:'absolute',left:110,top:170}}>READ BETWEEN THE LINES</Eyebrow>
-  <div style={{position:'absolute',left:105,top:228,fontSize:102,fontWeight:750,letterSpacing:-5}}>The story you added.</div>
+  <div style={{position:'absolute',left:105,top:228,fontSize:102,fontWeight:750,letterSpacing:-5}}>Why did Ava walk away?</div>
   <div style={{position:'absolute',left:110,top:390,width:1040,fontSize:44,lineHeight:1.38,fontWeight:450,color:'#dce0dc'}}>
    At the theatre door, Ava checked the time again.<br/>
    Inside, the last audience members were leaving.<br/>
@@ -28,7 +28,7 @@ export const ReadingHook=()=>{
    <div style={{fontSize:21,letterSpacing:6}}>ADMIT ONE</div><div style={{fontSize:55,fontWeight:800,letterSpacing:-1,marginTop:5}}>UNUSED TICKET</div>
    <div style={{position:'absolute',right:65,top:0,bottom:0,borderLeft:'2px dashed #a68d67'}}/>
   </div>
-  <div style={{position:'absolute',left:110,top:790,fontSize:48,fontWeight:650,color:P.cyan,opacity:interpolate(time,[clipSeconds('reading-hook')*.76,clipSeconds('reading-hook')*.76+.6],[0,1],ease)}}>What probably happened?</div>
+  <div style={{position:'absolute',left:110,top:790,fontSize:48,fontWeight:650,color:P.cyan,opacity:interpolate(time,[clipSeconds('reading-hook')*.76,clipSeconds('reading-hook')*.76+.6],[0,1],ease)}}>Look for details that matter.</div>
   <Narration id="reading-hook"/><SoundCue at={1.1}/>
  </Shell>;
 };

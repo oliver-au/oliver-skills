@@ -15,4 +15,4 @@ if(fs.existsSync(target)){
 }
 fs.mkdirSync(target,{recursive:true});
 fs.cpSync(source,target,{recursive:true,errorOnExist:true,force:false});
-console.log(`Created ${target}\nNext: install the package.json dependencies, then run npm run dev.\nThe three reference lessons are silent drafts until narration is prepared.`);
+console.log(`Created ${target}\nNext: install the package.json dependencies, then run npm run dev.\nThe four reference lessons are silent drafts until narration is prepared.`);

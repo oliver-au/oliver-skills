@@ -5,10 +5,11 @@ import type {Caption} from '@remotion/captions';
 import '@fontsource-variable/manrope';
 import narration from './narration.json';
 import readingNarration from './reading-narration.json';
+import cubeNarration from './cube-narration.json';
 
 export const P = {bg:'#0c1115',ink:'#f3f0e7',muted:'#9ba9ad',red:'#ff6756',mint:'#a6e6c7',cyan:'#7bcce0',line:'#2b393f'};
 type Track = {text:string;src:string;duration:number;captions?:Caption[];ready?:boolean};
-const tracks={...narration,...readingNarration} as Record<string,Track>;
+const tracks={...narration,...readingNarration,...cubeNarration} as Record<string,Track>;
 export const clipSeconds=(id:string)=>{
  const track=tracks[id];
  if(!track||!Number.isFinite(track.duration)||track.duration<=0)throw new Error(`Missing or invalid narration timing: ${id}`);

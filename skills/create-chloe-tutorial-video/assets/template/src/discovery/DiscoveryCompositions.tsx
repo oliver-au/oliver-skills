@@ -8,12 +8,17 @@ import {MathInsight} from './math/MathInsight';
 import {MathPractice} from './math/MathPractice';
 import {LogicVideo,logicDurationFrames,logicPracticeFrames,LogicHook,LogicGuess,LogicTest,LogicReverse,LogicReveal,LogicPractice} from './LogicVideo';
 import {sceneFrames} from './Shared';
+import {CubeVideo,cubeDurationFrames,cubeSceneFrames,CUBE_SCENES} from './CubeVideo';
 import {ReadingVideo,readingDurationFrames,readingPracticeFrames,ReadingHook,ReadingPredict,ReadingEvidence,ReadingStories,ReadingRule,ReadingPractice} from './ReadingVideo';
 
 export const DiscoveryCompositions=()=> <Folder name="Chloe-Discovery">
  <Composition id="Chloe-Percentage-Trap" component={MathVideo} width={1920} height={1080} fps={30} durationInFrames={mathDurationFrames()} />
  <Composition id="Chloe-Test-The-Rule" component={LogicVideo} width={1920} height={1080} fps={30} durationInFrames={logicDurationFrames()} />
  <Composition id="Chloe-The-Story-You-Added" component={ReadingVideo} width={1920} height={1080} fps={30} durationInFrames={readingDurationFrames()} />
+ <Composition id="Chloe-Far-Apart-Trap" component={CubeVideo} width={1920} height={1080} fps={30} durationInFrames={cubeDurationFrames()} />
+ <Folder name="Cube-scenes">
+  {CUBE_SCENES.map(([id,,Scene])=><Composition key={id} id={`Cube-${id.replace('cube-','')}`} component={Scene} width={1920} height={1080} fps={30} durationInFrames={cubeSceneFrames(id)} />)}
+ </Folder>
  <Folder name="Reading-scenes">
   <Composition id="Reading-Hook" component={ReadingHook} width={1920} height={1080} fps={30} durationInFrames={sceneFrames('reading-hook',30)} />
   <Composition id="Reading-Prediction" component={ReadingPredict} width={1920} height={1080} fps={30} durationInFrames={sceneFrames('reading-predict',30,4.6)} />

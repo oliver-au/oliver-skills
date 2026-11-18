@@ -1,0 +1,54 @@
+[
+ {
+  "id": "cube-hook",
+  "text": "Look at the star and the heart. When this paper net folds, will those two faces be opposite?"
+ },
+ {
+  "id": "cube-predict",
+  "text": "So when we fold it up, which face ends up opposite the star? It feels obvious. The heart! They're the furthest apart. But is it the heart, the triangle, the diamond or the plus? Lock in your answer."
+ },
+ {
+  "id": "cube-fold",
+  "text": "Let's fold it and find out. The plus folds back. The diamond folds back. The star and the triangle swing round to make the sides. And the heart closes the back."
+ },
+ {
+  "id": "cube-spin",
+  "text": "Now spin it round, and look at the star and the heart. They're not opposite at all. They touch! They share this edge."
+ },
+ {
+  "id": "cube-why",
+  "text": "So what is opposite the star? Watch just three squares: star, circle, triangle. The circle stays put. The star and the triangle fold up like two walls, facing each other. Opposite!"
+ },
+ {
+  "id": "cube-trap",
+  "text": "This is the far-apart trap. On this net, the furthest faces share an edge after folding."
+ },
+ {
+  "id": "cube-rule",
+  "text": "Here's the shortcut. In any straight line of three squares, skip the middle one. The two ends are opposite. Star, skip circle, triangle. Circle, skip triangle, heart. Plus, skip circle, diamond. Three pairs. Done."
+ },
+ {
+  "id": "cube-exam",
+  "text": "In the test, it might look like this. Which cube could be made from this net? Look at each drawing. Opposite faces cannot both meet at the corner you see. Cross out any cube that shows an opposite pair."
+ },
+ {
+  "id": "cube-exam-answer",
+  "text": "A shows the star and the triangle. Opposite. Out. B shows the plus and the diamond. Out. D shows the circle and the heart. Out. Only C is left, with the star and the heart side by side. Just like we saw."
+ },
+ {
+  "id": "cube-practice",
+  "text": "Your turn, with a new net. Which face is opposite G? Is it N, J, K or L? Try the skip-one trick."
+ },
+ {
+  "id": "cube-practice-answer",
+  "text": "H, skip J, K. That's a pair. J, skip K, L. Another pair. Only G and N are left over, so they must be opposite. The answer is N."
+ },
+ {
+  "id": "cube-practice-check",
+  "text": "Let's fold it to check. G on top. And N, right underneath. These two faces started far apart and finished opposite. On the first net, the star and heart finished touching."
+ },
+ {
+  "id": "cube-pocket",
+  "text": "Three straight squares: the ends are opposite."
+ }
+]

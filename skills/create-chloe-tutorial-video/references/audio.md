@@ -1,6 +1,6 @@
 # Narration and timing
 
-Use a clear, conversational voice at roughly 155 words per minute. Read mathematical symbols as spoken language. Leave a real four-second thinking interval after the prediction narration; do not hide narration inside that interval. Derive scene and reveal timings from measured clips, not estimated word counts.
+Use a clear, warm, conversational voice at roughly 150 words per minute. Read mathematical symbols as spoken language. Write for the ear of a 10-year-old: short sentences, "you" and "we", one idea per sentence, Australian spelling in captions. Split each beat into small clips so a reveal can start after a deliberate half-second of silence rather than mid-sentence. Leave a real four-second thinking interval after the prediction narration; do not hide narration inside that interval. Derive scene and reveal timings from measured clips, not estimated word counts.
 
 The helpers need Node.js 20.19 or newer. They can use an already-running local Phonon service with the Easton voice at `http://127.0.0.1:11434`. This is a local environment convention, not a required service on every machine. Do not assume that the model is installed or start downloading one without checking the environment.
 
@@ -23,7 +23,7 @@ Run helpers from the skill folder, supplying the generated project and input pat
 node scripts/prepare-narration.mjs --project ./lesson --input ./lesson/narration-input.json --manifest src/discovery/narration.json
 ```
 
-`--manifest` is relative to the generated project. For the reading example, select `src/discovery/reading-narration.json`. Final audio is written under `public/discovery/`; raw WAVs stay under `work/narration-raw/`. Final filenames include a content fingerprint, so old audio remains usable if preparing a later batch fails. The returned manifest supplies the exact `src` paths; do not hard-code filenames in JSX. A report appears in `work/narration-<manifest-name>-validation.json`.
+`--manifest` is relative to the generated project. For the reading example, select `src/discovery/reading-narration.json`; for the cube-net example, `src/discovery/cube-narration.json` (its script is `src/discovery/cube/script.json`). Final audio is written under `public/discovery/`; raw WAVs stay under `work/narration-raw/`. Final filenames include a content fingerprint, so old audio remains usable if preparing a later batch fails. The returned manifest supplies the exact `src` paths; do not hard-code filenames in JSX. A report appears in `work/narration-<manifest-name>-validation.json`.
 
 The processor uses FFmpeg and ffprobe from PATH, or the project's installed Remotion compositor package. It checks the macOS architecture package, Linux GNU/musl packages, or Windows MSVC package and uses a binary only if it starts successfully. For another installation, supply `--ffmpeg /path/to/ffmpeg --ffprobe /path/to/ffprobe`. `--voice`, `--model`, and `--host` configure the existing local speech service; the host must remain loopback. `--wpm` changes the target pace. Large changes in speech speed are clamped, so review the reported actual pace.
 

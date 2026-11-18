@@ -1,295 +1,274 @@
 {
   "reading-hook": {
-    "text": "At the theatre door, Ava checked the time again. Inside, the last audience members were leaving. She folded her unused ticket and walked away. What probably happened?",
+    "text": "Why did Ava walk away? The last audience members were leaving. She folded her unused ticket.",
     "src": "discovery/reading-hook.m4a",
-    "duration": 10.5,
+    "duration": 6.4,
     "captions": [
       {
-        "text": "At the theatre door, Ava checked the time again.",
+        "text": "Why did Ava walk away?",
         "startMs": 100,
-        "endMs": 3533,
+        "endMs": 2038,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Inside, the last audience members were leaving.",
-        "startMs": 3533,
-        "endMs": 6204,
+        "text": "The last audience members were leaving.",
+        "startMs": 2038,
+        "endMs": 4363,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "She folded her unused ticket and walked away.",
-        "startMs": 6204,
-        "endMs": 9256,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "What probably happened?",
-        "startMs": 9256,
-        "endMs": 10400,
+        "text": "She folded her unused ticket.",
+        "startMs": 4363,
+        "endMs": 6300,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "provisional": true,
     "ready": false
   },
   "reading-predict": {
-    "text": "Did Ava dislike the actors? Did she probably miss the performance? Or was her ticket for the wrong day? Choose the answer with the strongest support.",
+    "text": "Which explanation fits the clues best? Did Ava dislike the actors, miss the performance, bring yesterday’s ticket, or expect to meet a friend? Choose one.",
     "src": "discovery/reading-predict.m4a",
-    "duration": 10.1,
+    "duration": 10,
     "captions": [
       {
-        "text": "Did Ava dislike the actors?",
+        "text": "Which explanation fits the clues best?",
         "startMs": 100,
-        "endMs": 2004,
+        "endMs": 2452,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Did she probably miss the performance?",
-        "startMs": 2004,
-        "endMs": 4288,
+        "text": "Did Ava dislike the actors, miss the performance, bring yesterday’s",
+        "startMs": 2452,
+        "endMs": 6372,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Or was her ticket for the wrong day?",
-        "startMs": 4288,
-        "endMs": 7335,
+        "text": "ticket, or expect to meet a friend?",
+        "startMs": 6372,
+        "endMs": 9116,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Choose the answer with the strongest support.",
-        "startMs": 7335,
-        "endMs": 10000,
+        "text": "Choose one.",
+        "startMs": 9116,
+        "endMs": 9900,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "provisional": true,
     "ready": false
   },
   "reading-evidence": {
     "text": "Look at two clues together. The last audience members are leaving, and Ava's ticket is unused. Together, they suggest she probably missed the performance. That makes B the best-supported answer.",
     "src": "discovery/reading-evidence.m4a",
-    "duration": 11.7,
+    "duration": 12,
     "captions": [
       {
         "text": "Look at two clues together.",
         "startMs": 100,
-        "endMs": 2017,
+        "endMs": 2067,
         "timestampMs": null,
         "confidence": null
       },
       {
         "text": "The last audience members are leaving, and Ava's ticket is unused.",
-        "startMs": 2017,
-        "endMs": 6233,
+        "startMs": 2067,
+        "endMs": 6393,
         "timestampMs": null,
         "confidence": null
       },
       {
         "text": "Together, they suggest she probably missed the performance.",
-        "startMs": 6233,
-        "endMs": 9300,
+        "startMs": 6393,
+        "endMs": 9540,
         "timestampMs": null,
         "confidence": null
       },
       {
         "text": "That makes B the best-supported answer.",
-        "startMs": 9300,
-        "endMs": 11600,
+        "startMs": 9540,
+        "endMs": 11900,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "provisional": true,
     "ready": false
   },
   "reading-stories": {
-    "text": "A wrong date could explain an unused ticket. But the passage never gives us a date. And it says nothing about Ava's opinion of the actors. Possible is not the same as supported.",
+    "text": "A wrong date could explain an unused ticket. But the passage gives no date. It says nothing about the actors or a friend either. Which clues actually support your explanation?",
     "src": "discovery/reading-stories.m4a",
-    "duration": 12.8,
+    "duration": 12,
     "captions": [
       {
         "text": "A wrong date could explain an unused ticket.",
         "startMs": 100,
-        "endMs": 3155,
+        "endMs": 3247,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "But the passage never gives us a date.",
-        "startMs": 3155,
-        "endMs": 6209,
+        "text": "But the passage gives no date.",
+        "startMs": 3247,
+        "endMs": 5607,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "And it says nothing about Ava's opinion of the actors.",
-        "startMs": 6209,
-        "endMs": 10027,
+        "text": "It says nothing about the actors or a friend either.",
+        "startMs": 5607,
+        "endMs": 9540,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Possible is not the same as supported.",
-        "startMs": 10027,
-        "endMs": 12700,
+        "text": "Which clues actually support your explanation?",
+        "startMs": 9540,
+        "endMs": 11900,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "provisional": true,
     "ready": false
   },
   "reading-rule": {
     "text": "An inference connects clues to a likely explanation. It does not make the explanation certain. Ask: which details in the passage support this answer? Leave out the story you invented.",
     "src": "discovery/reading-rule.m4a",
-    "duration": 11.7,
+    "duration": 12,
     "captions": [
       {
         "text": "An inference connects clues to a likely explanation.",
         "startMs": 100,
-        "endMs": 3167,
+        "endMs": 3247,
         "timestampMs": null,
         "confidence": null
       },
       {
         "text": "It does not make the explanation certain.",
-        "startMs": 3167,
-        "endMs": 5850,
+        "startMs": 3247,
+        "endMs": 6000,
         "timestampMs": null,
         "confidence": null
       },
       {
         "text": "Ask: which details in the passage support this answer?",
-        "startMs": 5850,
-        "endMs": 9300,
+        "startMs": 6000,
+        "endMs": 9540,
         "timestampMs": null,
         "confidence": null
       },
       {
         "text": "Leave out the story you invented.",
-        "startMs": 9300,
-        "endMs": 11600,
-        "timestampMs": null,
-        "confidence": null
-      }
-    ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
-    "provisional": true,
-    "ready": false
-  },
-  "reading-practice": {
-    "text": "Your turn. At the end of the school day, Noah opened his schoolbag. His packed lunch was untouched. He tucked that day's canteen receipt into his pocket. Did he probably buy food at the canteen, dislike every packed lunch, or have a broken lunchbox? Choose the strongest inference.",
-    "src": "discovery/reading-practice.m4a",
-    "duration": 18.6,
-    "captions": [
-      {
-        "text": "Your turn.",
-        "startMs": 100,
-        "endMs": 867,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "At the end of the school day, Noah opened his schoolbag.",
-        "startMs": 867,
-        "endMs": 5083,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "His packed lunch was untouched.",
-        "startMs": 5083,
-        "endMs": 7000,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "He tucked that day's canteen receipt into his pocket.",
-        "startMs": 7000,
-        "endMs": 10450,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "Did he probably buy food at the canteen, dislike every packed lunch,",
-        "startMs": 10450,
-        "endMs": 15050,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "or have a broken lunchbox?",
-        "startMs": 15050,
-        "endMs": 16967,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "Choose the strongest inference.",
-        "startMs": 16967,
-        "endMs": 18500,
-        "timestampMs": null,
-        "confidence": null
-      }
-    ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
-    "provisional": true,
-    "ready": false
-  },
-  "reading-practice-answer": {
-    "text": "A is best supported. The receipt suggests a canteen purchase, and the untouched lunch fits that explanation. The passage tells us neither his general preferences nor the condition of his lunchbox.",
-    "src": "discovery/reading-practice-answer.m4a",
-    "duration": 12,
-    "captions": [
-      {
-        "text": "A is best supported.",
-        "startMs": 100,
-        "endMs": 1623,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "The receipt suggests a canteen purchase, and the untouched lunch fits",
-        "startMs": 1623,
-        "endMs": 5810,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "that explanation.",
-        "startMs": 5810,
-        "endMs": 6571,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "The passage tells us neither his general preferences nor the condition",
-        "startMs": 6571,
-        "endMs": 10758,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "of his lunchbox.",
-        "startMs": 10758,
+        "startMs": 9540,
         "endMs": 11900,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "provisional": true,
+    "ready": false
+  },
+  "reading-practice": {
+    "text": "At the end of the school day, Noah opened his schoolbag. His packed lunch was untouched. He tucked that day's canteen receipt into his pocket. What most likely happened? Read all four choices and pick one.",
+    "src": "discovery/reading-practice.m4a",
+    "duration": 14.4,
+    "captions": [
+      {
+        "text": "At the end of the school day, Noah opened his schoolbag.",
+        "startMs": 100,
+        "endMs": 4439,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "His packed lunch was untouched.",
+        "startMs": 4439,
+        "endMs": 6411,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "He tucked that day's canteen receipt into his pocket.",
+        "startMs": 6411,
+        "endMs": 9961,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "What most likely happened?",
+        "startMs": 9961,
+        "endMs": 11539,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Read all four choices and pick one.",
+        "startMs": 11539,
+        "endMs": 14300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "provisional": true,
+    "ready": false
+  },
+  "reading-practice-answer": {
+    "text": "A fits both clues. Noah probably bought food at the canteen instead of eating his packed lunch. We have no clue that he forgot his money, packed a friend's lunch, or broke his lunchbox.",
+    "src": "discovery/reading-practice-answer.m4a",
+    "duration": 13.6,
+    "captions": [
+      {
+        "text": "A fits both clues.",
+        "startMs": 100,
+        "endMs": 1676,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Noah probably bought food at the canteen instead of eating his packed",
+        "startMs": 1676,
+        "endMs": 6406,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "lunch.",
+        "startMs": 6406,
+        "endMs": 6800,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "We have no clue that he forgot his money, packed a friend's lunch, or",
+        "startMs": 6800,
+        "endMs": 12318,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "broke his lunchbox.",
+        "startMs": 12318,
+        "endMs": 13500,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "provisional": true,
     "ready": false
   }

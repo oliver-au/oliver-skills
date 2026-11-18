@@ -19,7 +19,9 @@ Reserve the bottom band for captions. The reference captions sit 88 px above the
 
 ## Layout and movement
 
-Use generous empty space, a single clear focal point, restrained shadows, thin connectors, and simple original geometry. A title, diagram, and short explanation are often enough. Long passages belong on a warm paper panel; options can sit beside them.
+Use generous empty space, a single clear focal point, restrained shadows, thin connectors, and simple original geometry. Keep the relevant object or passage in view while the learner needs it; a short question or label supports it. Long passages belong on a warm paper panel; options can sit beside them. Avoid grids of text cards and numbered step boxes — say the steps while the object performs them.
+
+A slow push-in (scale 1 → 1.08 over a few seconds) or a pan toward the detail being discussed directs attention without decoration. Dim what is not being discussed rather than removing it, so the learner keeps her place.
 
 Typical entrances take 0.4–0.7 seconds with a smooth ease and 12–30 px of travel. Move objects because their relationship changes. A mathematical quantity should grow, split, regroup, or be removed visibly; an evidence line should connect the clue to the conclusion. Avoid continuous decorative movement, flashing, and busy backgrounds.
 

@@ -16,17 +16,17 @@ export const ReadingPractice = () => {
     WebkitBoxDecorationBreak: 'clone',
   };
   const optionStyle: CSSProperties = {
-    position: 'absolute', left: 1050, width: 760, height: 138,
+    position: 'absolute', left: 1050, width: 760, height: 107,
     boxSizing: 'border-box', border: `2px solid ${P.line}`,
     borderRadius: 8, background: '#111b20',
   };
   const letterStyle: CSSProperties = {
-    position: 'absolute', left: 27, top: 31,
+    position: 'absolute', left: 27, top: 33,
     fontSize: 30, fontWeight: 800, color: P.muted,
   };
   const optionTextStyle: CSSProperties = {
-    position: 'absolute', left: 92, right: 24, top: 19,
-    fontSize: 42, fontWeight: 550, lineHeight: 1.2, letterSpacing: -0.8,
+    position: 'absolute', left: 92, right: 24, top: 2, bottom: 2, display: 'flex', alignItems: 'center',
+    fontSize: 38, fontWeight: 550, lineHeight: 1.2, letterSpacing: -0.8,
   };
 
   return <Shell subject="READING" step="06 / YOUR TURN" title="What do the clues suggest?">
@@ -47,21 +47,25 @@ export const ReadingPractice = () => {
       </div>
     </div>
 
-    <div style={{...optionStyle, top: 300, borderColor: reveal > 0 ? P.mint : P.line}}>
-      <div style={{position: 'absolute', inset: 0, borderRadius: 6, background: P.mint, opacity: reveal * 0.12}}/>
-      <div style={{...letterStyle, color: reveal > 0 ? P.mint : P.muted}}>A</div>
-      <div style={{...optionTextStyle, color: reveal > 0 ? P.mint : P.ink}}>He probably bought food at the canteen.</div>
-    </div>
-    <div style={{...optionStyle, top: 456, opacity: incorrectOpacity}}>
-      <div style={letterStyle}>B</div>
-      <div style={optionTextStyle}>He dislikes every packed lunch.</div>
-    </div>
-    <div style={{...optionStyle, top: 612, opacity: incorrectOpacity}}>
-      <div style={letterStyle}>C</div>
-      <div style={{...optionTextStyle, top: 41}}>His lunchbox is broken.</div>
-    </div>
+    {[
+      ['A', 'He bought food at the canteen.'],
+      ['B', 'He forgot his lunch money.'],
+      ['C', 'He packed a friend’s lunch.'],
+      ['D', 'He broke his lunchbox at school.'],
+    ].map(([letter, answer], index) => {
+      const correct = letter === 'A';
+      const marked = correct && reveal > 0;
+      return <div key={letter} style={{
+        ...optionStyle, top: 295 + index * 122,
+        borderColor: marked ? P.mint : P.line,
+        opacity: correct ? 1 : incorrectOpacity,
+      }}>
+        <div style={{...letterStyle, color: marked ? P.mint : P.muted}}>{letter}</div>
+        <div style={{...optionTextStyle, color: marked ? P.mint : P.ink}}>{answer}</div>
+      </div>;
+    })}
 
-    <PauseMeter start={practiceSeconds + 0.3} duration={4} label="Pause and choose A, B or C"/>
+    <PauseMeter start={practiceSeconds + 0.3} duration={4} label="Choose A, B, C or D"/>
     <div style={{
       position: 'absolute', left: 110, right: 110, top: 800,
       fontSize: 43, fontWeight: 600, lineHeight: 1.3, textAlign: 'center',

@@ -11,7 +11,7 @@ import {synthesize} from './tts-local.mjs';
 const HELP=`node prepare-narration.mjs --project ./lesson --input ./narration.json
   [--manifest src/discovery/narration.json] [--draft | --prepare-only]
   [--raw-dir work/narration-raw] [--voice Easton] [--model phonon]
-  [--host http://127.0.0.1:11434] [--wpm 155]
+  [--host http://127.0.0.1:11434] [--wpm 150]
   [--ffmpeg /path/to/ffmpeg] [--ffprobe /path/to/ffprobe]
 Input: {"hook":{"text":"Spoken words"}} or [{"id":"hook","text":"Spoken words"}].
 --draft writes estimated timings with ready:false and makes no service calls.
@@ -20,7 +20,7 @@ const {values}=parseArgs({options:{
   project:{type:'string'},input:{type:'string'},manifest:{type:'string',default:'src/discovery/narration.json'},
   'raw-dir':{type:'string',default:'work/narration-raw'},draft:{type:'boolean'},'prepare-only':{type:'boolean'},
   voice:{type:'string',default:'Easton'},model:{type:'string',default:'phonon'},host:{type:'string',default:'http://127.0.0.1:11434'},
-  wpm:{type:'string',default:'155'},ffmpeg:{type:'string'},ffprobe:{type:'string'},help:{type:'boolean'},
+  wpm:{type:'string',default:'150'},ffmpeg:{type:'string'},ffprobe:{type:'string'},help:{type:'boolean'},
 }});
 if(values.help){console.log(HELP);process.exit(0);}
 
