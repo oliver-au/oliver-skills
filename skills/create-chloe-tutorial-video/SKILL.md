@@ -60,7 +60,7 @@ Use frame-driven animation with the composition's FPS. Keep total duration, scen
 
 ## Verify and deliver
 
-Follow [the review checks](references/review-checks.md). Typecheck/build the project, inspect representative actual frames, and exercise the preview's play, pause, replay, and lesson selection. Check the exported or hosted lesson at the prediction and reveal, and watch the transition in motion. Verify the first spoken question against the actual timeline. Verify the new answer and practice answer independently.
+Follow [the review checks](references/review-checks.md). Typecheck/build the project, inspect representative actual frames, and exercise the preview's play, pause, replay, and lesson selection. Check the exported or hosted lesson at the prediction and reveal, and watch the transition in motion. Verify the first spoken question against the actual timeline. Solve the new answer and practice answer from the learner’s visible clues. For multi-lesson work, use the [three independent course checks](references/course-production.md#three-independent-checks-for-a-narrated-course) to reconcile the solution, encoded narration and final rendered lesson.
 
 Deliver a preview link, duration, editable source location, and any material limitation. Default to a local interactive preview. Render an MP4 when the user asks for an export. A localhost link only works on its host computer; when the user requests remote or public review, build the standalone player and use an available hosting workflow. Do not expose Studio or the workspace, or publish without the user's request. Include only the lesson assets in a public build. Do not reuse another project's hosting identity, credentials, or audience.
 

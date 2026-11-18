@@ -26,6 +26,14 @@ Keep a review ledger by lesson ID. Inspect the opening, worked mechanism, predic
 
 Measure and decode every narration file. Check it fits its scene with a lead and tail and that caption intervals remain in range. Distinguish these technical checks from listening; do not report an audition that was not performed.
 
+### Three independent checks for a narrated course
+
+1. **Solve from the learner’s view.** Give a second reviewer just the stem, visible diagram and answer choices. Record their answer and one reason before showing the key, feedback or textbook solution. Try removing the teaching rule from a transfer question. If the same answer follows directly from a given, rewrite the question so the learner must use the relationship. Check conditional direction, missing cases, units, time boundaries and what a drawing actually shows.
+2. **Read the encoded voice back.** Where available, transcribe the final playback files with a speech recogniser. Compare against the authorised script. Review names and local spellings in context. Check every disagreement involving negation, a quantity, a letter label, a unit or the direction of a rule. Listen to the disputed phrase or use a second independent recognition pass. Make the speech unambiguous where necessary. For example, say “turn the first and last cards a quarter turn” when adjacent position numbers and angles run together. Keep the exact written maths on screen. Match the complete caption text to the script and align phrase starts to the measured recording where possible. Record the media hash so a replacement invalidates its previous review.
+3. **Inspect the final cut.** For each lesson inspect the opening, a moving proof at two or more frames, the silent prediction frame and the first answer frame. Read the actual on-screen geometry. For a cube, write down the faces visible from that camera. For a chart, read the labelled unit and denominator. Exercise the course player on a remote-sized screen. A corrected clip can move later chapters, pause points and saved playback positions. Retest them with the new timings. Keep worked-proof hints behind submission when they disclose a practice answer.
+
+Record each verdict by lesson and clip with the correction or evidence that resolved it. State which portions received continuous listening or playback and which received machine transcription or frame sampling.
+
 ## Learning website
 
 For a requested course site, separate watching, practice, and delayed retrieval. Watching a video is not evidence of mastery. Record whether a question was attempted before its solution, whether reasoning was explained, and whether a review was delayed. Describe self-reported explain-back checks honestly; a checkbox does not grade a proof. Offer official or genuinely unseen mixed practice as the next benchmark.
