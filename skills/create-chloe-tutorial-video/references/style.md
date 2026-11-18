@@ -27,6 +27,14 @@ Typical entrances take 0.4–0.7 seconds with a smooth ease and 12–30 px of tr
 
 Use `useCurrentFrame()`, `useVideoConfig().fps`, and clamped interpolation. Do not use CSS animations, wall-clock timers, or unseeded randomness inside a composition. Generated repetitions such as tiles can be mapped; authored scenes and clips should remain individually editable.
 
+### Illustrating a physical action
+
+Choose a viewpoint that makes the action understandable with the sound off. Sketch the starting pose, decisive moment and ending pose at the size the learner will actually see. For a person entering a place, establish the threshold, both sides and a continuous walkable surface. Set the scale of doors and props against the person. Use overlap, a consistent light direction and a contact shadow to clarify depth. Give the teaching prop enough contrast to recognise in the wide shot, then preserve its shape, colour and orientation in a close-up.
+
+For a walk, tie stride to distance travelled. Keep the supporting foot planted against the ground as the body passes over it, then bend the other knee to clear the floor. Ease the weight into the first step and settle it over the feet at the stop. Lead a deliberate gesture with the gaze or shoulder and let the hand arrive on the spoken cue. Frame the action clear of captions. During a prediction or a comparison, hold the evidence steady.
+
+For an editable example, open **Motion-studies → Pool-Gate-Walk** in Studio. The [silent study](../assets/template/src/discovery/studies/pool/GateWalkStudy.tsx) drives the character’s pose from the distance she walks. The adjacent `Nina.tsx` contains the joints and wristband gesture, and `Pool.tsx` places the person between the back and front posts. Reuse the rig, scenery or timing independently when the new question calls for them.
+
 ## Reading and listening
 
 Show the question long enough to understand it. Reveal clues and transformations in the same order as the narration. During a prediction pause, remove the current narration caption and leave a quiet progress line. Do not cue the correct option with colour or motion beforehand.

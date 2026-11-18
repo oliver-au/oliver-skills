@@ -9,9 +9,13 @@ import {MathPractice} from './math/MathPractice';
 import {LogicVideo,logicDurationFrames,logicPracticeFrames,LogicHook,LogicGuess,LogicTest,LogicReverse,LogicReveal,LogicPractice} from './LogicVideo';
 import {sceneFrames} from './Shared';
 import {CubeVideo,cubeDurationFrames,cubeSceneFrames,CUBE_SCENES} from './CubeVideo';
+import {GateWalkStudy} from './studies/pool/GateWalkStudy';
 import {ReadingVideo,readingDurationFrames,readingPracticeFrames,ReadingHook,ReadingPredict,ReadingEvidence,ReadingStories,ReadingRule,ReadingPractice} from './ReadingVideo';
 
 export const DiscoveryCompositions=()=> <Folder name="Chloe-Discovery">
+ <Folder name="Motion-studies">
+  <Composition id="Pool-Gate-Walk" component={GateWalkStudy} width={1920} height={1080} fps={30} durationInFrames={219}/>
+ </Folder>
  <Composition id="Chloe-Percentage-Trap" component={MathVideo} width={1920} height={1080} fps={30} durationInFrames={mathDurationFrames()} />
  <Composition id="Chloe-Test-The-Rule" component={LogicVideo} width={1920} height={1080} fps={30} durationInFrames={logicDurationFrames()} />
  <Composition id="Chloe-The-Story-You-Added" component={ReadingVideo} width={1920} height={1080} fps={30} durationInFrames={readingDurationFrames()} />
