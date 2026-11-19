@@ -1,6 +1,14 @@
 # Chloe visual and motion specification
 
-The bundled `assets/template/src/discovery/` source is the concrete reference. Preserve its design language while adapting diagrams and pacing to the new problem.
+Use the finished C3 pool sequence to calibrate picture-making and motion. The editable sources in `assets/template/src/discovery/` demonstrate implementation choices.
+
+## Compare the decisive shot with C3
+
+Watch 00:18–00:34 in the approved film. The gatepost establishes a boundary before Nina walks. Her feet, shadow, wristband and the post keep their positions relative to one another as she crosses. The next shot pairs that outcome with the same girl still outside. A pupil can point to the difference. Use the original reference the family supplies when it differs. The companion evaluator also includes this excerpt for offline use. [C3 reference player](https://chloe-c3-review.oliver-au.chatgpt.site/?scene=crossing)
+
+Translate the quality of that decision into the current subject. Sketch the setup, decisive intermediate state and consequence at player size. In Reading, place the two clues in one believable scene and let Chloe connect them without showing an imagined event as fact. In Maths, keep the base quantity visible as a part is added or removed, and reveal each total at the relevant spoken cue. In Thinking Skills, test the same objects against the conditions, including a near miss. In Writing, keep the actual words readable and show how the revision changes what a particular reader can do. A focused diagram or annotated manuscript can carry an entire shot when its changes reveal the reasoning.
+
+Stage visual detail around the teaching action. Distinguish the foreground teaching object from its setting with perspective, overlap, materials and light where appropriate. Give it room to move. A neutral prediction or exam panel can hold steady for reading. When explanation resumes, return to a demonstration. Export that sequence and compare it with C3 before repeating a treatment across a batch.
 
 ## Canvas and hierarchy
 

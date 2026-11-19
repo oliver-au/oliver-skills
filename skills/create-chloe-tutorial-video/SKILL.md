@@ -5,7 +5,7 @@ description: Create narrated Chloe tutorial videos from questions and knowledge 
 
 # Create Chloe tutorial videos
 
-Turn the user's questions and knowledge points into a complete, correct lesson in the **Chloe tutorial style**. Deliver an editable video and a working preview, with narration when speech generation is available. The bundled source is the visual reference; a prose outline alone does not complete a video request.
+Turn the user's questions and knowledge points into a complete, correct lesson in the **Chloe tutorial style**. Deliver an editable video and a working preview, with narration when speech generation is available. Use the approved finished film as the visual reference. The starter supplies editable examples and playback plumbing.
 
 ## Start from the learning task
 
@@ -44,6 +44,8 @@ Use a tempting misconception when the question supports one. Let the learner pre
 7. **Your turn**: new surface, same structure; pause; reveal through the visual.
 8. **Pocket rule**: a short reminder that retains every condition needed for the rule to work. Test it against a near miss.
 
+Before building the full lesson, prototype the decisive shot at the intended viewing size. Name what remains in frame, what changes on which spoken cue, and what a pupil can deduce from the change. Compare the rendered action with the [C3 reference sequence](references/style.md#compare-the-decisive-shot-with-c3). Use the same check for a short sample or exam-practice excerpt.
+
 Write the complete narration and beat sheet first, then run the script critique in [the review checks](references/review-checks.md#script-critique-before-building) and revise before building scenes.
 
 Make the visual carry the reasoning: fold, regroup, test a counterexample, or link passage clues. Keep the question and necessary evidence visible during thinking time. Use stillness when Chloe needs to read or compare. Preserve object identity while it changes. Write for a Year 5 listener: short sentences, everyday words, Australian spelling.
@@ -60,7 +62,7 @@ Use frame-driven animation with the composition's FPS. Keep total duration, scen
 
 ## Verify and deliver
 
-Follow [the review checks](references/review-checks.md). Typecheck/build the project, inspect representative actual frames, and exercise the preview's play, pause, replay, and lesson selection. Check the exported or hosted lesson at the prediction and reveal, and watch the transition in motion. For every spoken beat preserve an approved script and export the actual learner-facing captions and transcript alongside the final media. Supply the independent evaluator with the lesson objective, original givens, source or original-work provenance, and section. Verify the first spoken question against the actual timeline. Solve the new answer and practice answer from the learner’s visible clues. For multi-lesson work, use the [three independent course checks](references/course-production.md#three-independent-checks-for-a-narrated-course) to reconcile the solution, encoded narration and final rendered lesson.
+Follow [the review checks](references/review-checks.md). Typecheck/build the project, inspect representative actual frames, and exercise the preview's play, pause, replay, and lesson selection. Check the exported or hosted lesson at the prediction and reveal, and watch the transition in motion. For every spoken beat preserve an approved script and export the actual learner-facing captions and transcript alongside the final media. For a C3-standard deliverable, run the companion `evaluate-chloe-tutorial-video` skill when available. Give the reviewer the approved reference, exact final export, objective, original givens, provenance and section. Report the visual verdict separately from content and speech checks. A presentation that still needs a visual repair can be shared as a review cut. Verify the first spoken question against the actual timeline. Solve the new answer and practice answer from the learner’s visible clues. For multi-lesson work, use the [three independent course checks](references/course-production.md#three-independent-checks-for-a-narrated-course) to reconcile the solution, encoded narration and final rendered lesson.
 
 Deliver a preview link, duration, editable source location, and any material limitation. Default to a local interactive preview. Render an MP4 when the user asks for an export. A localhost link only works on its host computer; when the user requests remote or public review, build the standalone player and use an available hosting workflow. Do not expose Studio or the workspace, or publish without the user's request. Include only the lesson assets in a public build. Do not reuse another project's hosting identity, credentials, or audience.
 

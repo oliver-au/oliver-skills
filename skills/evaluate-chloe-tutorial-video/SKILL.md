@@ -17,6 +17,18 @@ Play the central example at its normal speed and intended display size. Mute it 
 
 Can a learner follow the same object, quantity, wording or condition through the decisive change? A changing quantity should visibly move, split, combine or otherwise account for both sides. A counterexample should keep the relevant givens fixed while the outcome changes. In a reading or argument question a quiet, labelled comparison may carry all the evidence. Distinguish evidence the learner can inspect from prose that announces the result.
 
+## Compare the visual standard
+
+Use the family’s approved export and its decisive sequence. For Chloe’s usual standard, the [offline C3 excerpt](assets/c3-gate-comparison.mp4) shows the same wristband and threshold across two possible outcomes. In the excerpt, 0–7 s follows the crossing and 7–16 s introduces the alternate outcome. The original passage starts at 00:18.1. Judge how motion makes an idea legible. A book changing hands, a quantity repartitioning and a word being moved can each demonstrate this standard. Choose a cast and visual medium suited to the subject. Use this muted excerpt to calibrate staging and motion. Use the full candidate export for sound and caption checks.
+
+Choose answer-bearing moments in both films and compare them at the same player size. Include the candidate immediately before, during and after its decisive action. Record a timestamp and an observation for each of these questions:
+
+- What can a learner point to that establishes the inference? Could a pupil still reconstruct it if the answer sentence were removed?
+- Does the camera, composition, illustration or diagram direct attention to that evidence? Can the learner follow the same prop, quantity, word or rule through the change?
+- Does each conclusion appear when its evidence is ready? Inspect the intermediate states, the prediction pause and what stays visible during the explanation.
+
+A legible multiple-choice hold can be effective for prediction. A choice highlight followed by a static answer line is insufficient evidence for a visual demonstration. Record a separate **visual benchmark verdict**. A content or transcript pass cannot clear it. If the result needs revision, identify the shot to remake and check the new export against the same reference interval. Preserve the distinction between an excerpt passing and a full lesson passing.
+
 ## Second viewing
 
 Play with audio and captions. Check whether the spoken cue draws attention to the event as it happens, the learner has time to predict, and the answer stays hidden until the intended reveal. Compare framing, composition, continuity, legibility, sound and pacing with the approved reference. A different subject can use different visual techniques. Check the worked answer independently from the givens, then attempt the fresh question without the key. Compare the approved script with an independent transcription of the final recording, the visible captions and the learner-facing transcript. Account for every narrated beat and resolve meaning-changing differences. Keep the final media identity and timestamps in the review. Use the creator’s encoding and layout checks as additional evidence.

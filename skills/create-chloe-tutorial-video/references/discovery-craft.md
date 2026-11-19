@@ -73,7 +73,7 @@ A typical lesson is 2–3 minutes. Do not pad: if the idea is small, merge 4 and
 
 - Reuse trap names across lessons so they become vocabulary.
 - End with, or start the practice with, one quick question from an earlier lesson (spaced, mixed retrieval).
-- Keep one consistent voice, palette and set of characters across the series.
+- Keep a recognisable voice and visual hierarchy across the series. Choose a cast, setting or diagram that fits each problem. Carry the same object through a shot when its continuity is part of the reasoning.
 
 ## Script before code
 
