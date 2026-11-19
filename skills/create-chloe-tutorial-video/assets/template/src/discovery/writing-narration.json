@@ -1,0 +1,345 @@
+{
+  "writing-reader": {
+    "text": "The book swap will be amazing. Imagine you're new at this school. Would that sentence help you join in? What would you still need to know?",
+    "src": "discovery/writing-reader.m4a",
+    "duration": 10.4,
+    "captions": [
+      {
+        "text": "The book swap will be amazing.",
+        "startMs": 100,
+        "endMs": 2454,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Imagine you're new at this school.",
+        "startMs": 2454,
+        "endMs": 4808,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Would that sentence help you join in?",
+        "startMs": 4808,
+        "endMs": 7554,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "What would you still need to know?",
+        "startMs": 7554,
+        "endMs": 10300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "writing-brief": {
+    "text": "Here is the task. Write a notice inviting new pupils to the library book swap. Explain how to take part. It happens at lunchtime on Thursday. Bring one book and swap it for another. Look at the reader and the job your words need to do.",
+    "src": "discovery/writing-brief.m4a",
+    "duration": 18.4,
+    "captions": [
+      {
+        "text": "Here is the task.",
+        "startMs": 100,
+        "endMs": 1683,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Write a notice inviting new pupils to the library book swap.",
+        "startMs": 1683,
+        "endMs": 6035,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Explain how to take part.",
+        "startMs": 6035,
+        "endMs": 8013,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "It happens at lunchtime on Thursday.",
+        "startMs": 8013,
+        "endMs": 10387,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Bring one book and swap it for another.",
+        "startMs": 10387,
+        "endMs": 13552,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Look at the reader and the job your words need to do.",
+        "startMs": 13552,
+        "endMs": 18300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "writing-plan": {
+    "text": "Try changing the opening for someone who has never been to a swap. What could you say to make a new pupil want to come? Say your own opening aloud.",
+    "src": "discovery/writing-plan.m4a",
+    "duration": 12,
+    "captions": [
+      {
+        "text": "Try changing the opening for someone who has never been to a swap.",
+        "startMs": 100,
+        "endMs": 5213,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "What could you say to make a new pupil want to come?",
+        "startMs": 5213,
+        "endMs": 9933,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Say your own opening aloud.",
+        "startMs": 9933,
+        "endMs": 11900,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "writing-edit": {
+    "text": "Looking for your next adventure? This question gives our reader a reason to come. Now give them something they can do. Bring one book to the library at lunchtime on Thursday. Swap it for a new read. The invitation now tells a newcomer where to go, when to go, and what to bring.",
+    "src": "discovery/writing-edit.m4a",
+    "duration": 21.2,
+    "captions": [
+      {
+        "text": "Looking for your next adventure?",
+        "startMs": 100,
+        "endMs": 2081,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "This question gives our reader a reason to come.",
+        "startMs": 2081,
+        "endMs": 5647,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Now give them something they can do.",
+        "startMs": 5647,
+        "endMs": 8421,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Bring one book to the library at lunchtime on Thursday.",
+        "startMs": 8421,
+        "endMs": 12383,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Swap it for a new read.",
+        "startMs": 12383,
+        "endMs": 14760,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The invitation now tells a newcomer where to go, when to go, and what",
+        "startMs": 14760,
+        "endMs": 20308,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "to bring.",
+        "startMs": 20308,
+        "endMs": 21100,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "writing-compare": {
+    "text": "Another writer could begin with the book instead. Give a story you love a new reader. That opening invites someone who enjoys sharing. Either opening can work. Both still need the practical details. Which one sounds like you?",
+    "src": "discovery/writing-compare.m4a",
+    "duration": 15.2,
+    "captions": [
+      {
+        "text": "Another writer could begin with the book instead.",
+        "startMs": 100,
+        "endMs": 3258,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Give a story you love a new reader.",
+        "startMs": 3258,
+        "endMs": 6416,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "That opening invites someone who enjoys sharing.",
+        "startMs": 6416,
+        "endMs": 9179,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Either opening can work.",
+        "startMs": 9179,
+        "endMs": 10758,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Both still need the practical details.",
+        "startMs": 10758,
+        "endMs": 13126,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Which one sounds like you?",
+        "startMs": 13126,
+        "endMs": 15100,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "writing-transfer": {
+    "text": "Now try a different task. A younger pupil feels nervous about joining the art club. Write a friendly email to help them feel welcome. Explain one way they could join in. The club meets in the art room at lunchtime on Monday. Materials are provided. Pause the video and type your own email before you look back.",
+    "src": "discovery/writing-transfer.m4a",
+    "duration": 22.8,
+    "captions": [
+      {
+        "text": "Now try a different task.",
+        "startMs": 100,
+        "endMs": 2082,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "A younger pupil feels nervous about joining the art club.",
+        "startMs": 2082,
+        "endMs": 6047,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Write a friendly email to help them feel welcome.",
+        "startMs": 6047,
+        "endMs": 9616,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Explain one way they could join in.",
+        "startMs": 9616,
+        "endMs": 12391,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The club meets in the art room at lunchtime on Monday.",
+        "startMs": 12391,
+        "endMs": 16753,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Materials are provided.",
+        "startMs": 16753,
+        "endMs": 17942,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Pause the video and type your own email before you look back.",
+        "startMs": 17942,
+        "endMs": 22700,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  },
+  "writing-check": {
+    "text": "Read your email as the younger pupil. Which words would help you feel welcome? Can you find one action you could take? Check that your details fit the prompt. Read your sentences aloud to catch a missing word or full stop. Your own voice belongs here.",
+    "src": "discovery/writing-check.m4a",
+    "duration": 18.4,
+    "captions": [
+      {
+        "text": "Read your email as the younger pupil.",
+        "startMs": 100,
+        "endMs": 2870,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Which words would help you feel welcome?",
+        "startMs": 2870,
+        "endMs": 5639,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Can you find one action you could take?",
+        "startMs": 5639,
+        "endMs": 8804,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Check that your details fit the prompt.",
+        "startMs": 8804,
+        "endMs": 11574,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Read your sentences aloud to catch a missing word or full stop.",
+        "startMs": 11574,
+        "endMs": 16322,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Your own voice belongs here.",
+        "startMs": 16322,
+        "endMs": 18300,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ],
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
+    "ready": false,
+    "provisional": true
+  }
+}

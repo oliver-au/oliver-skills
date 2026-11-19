@@ -204,99 +204,92 @@
     "provisional": true
   },
   "math-practice": {
-    "text": "Your turn. A two-hundred-dollar bicycle rises in price by ten percent, then falls by ten percent. Is the final price two hundred, one hundred and ninety-eight, or one hundred and eighty dollars? Pause and work it out.",
+    "text": "A bicycle starts at two hundred dollars. Its price rises by ten percent and then falls by ten percent. What is the final price? Choose one of the five prices on screen.",
     "src": "discovery/math-practice.m4a",
-    "duration": 14.4,
+    "duration": 12.8,
     "captions": [
       {
-        "text": "Your turn.",
+        "text": "A bicycle starts at two hundred dollars.",
         "startMs": 100,
-        "endMs": 868,
+        "endMs": 2856,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "A two-hundred-dollar bicycle rises in price by ten percent, then falls",
-        "startMs": 868,
-        "endMs": 5089,
+        "text": "Its price rises by ten percent and then falls by ten percent.",
+        "startMs": 2856,
+        "endMs": 7581,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "by ten percent.",
-        "startMs": 5089,
-        "endMs": 6241,
+        "text": "What is the final price?",
+        "startMs": 7581,
+        "endMs": 9550,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Is the final price two hundred, one hundred and ninety-eight, or one",
-        "startMs": 6241,
-        "endMs": 10846,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "hundred and eighty dollars?",
-        "startMs": 10846,
-        "endMs": 12381,
-        "timestampMs": null,
-        "confidence": null
-      },
-      {
-        "text": "Pause and work it out.",
-        "startMs": 12381,
-        "endMs": 14300,
+        "text": "Choose one of the five prices on screen.",
+        "startMs": 9550,
+        "endMs": 12700,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "ready": false,
     "provisional": true
   },
   "math-practice-answer": {
-    "text": "The answer is one hundred and ninety-eight dollars. First add twenty, giving two hundred and twenty. Then subtract ten percent of that: twenty-two dollars. Different starting amounts. Different changes.",
+    "text": "The second choice is correct. Ten percent of two hundred dollars is twenty dollars. The bicycle now costs two hundred and twenty dollars. Ten percent of this new price is twenty-two dollars. Subtract twenty-two dollars. The final price is one hundred and ninety-eight dollars.",
     "src": "discovery/math-practice-answer.m4a",
-    "duration": 11.3,
+    "duration": 17.6,
     "captions": [
       {
-        "text": "The answer is one hundred and ninety-eight dollars.",
+        "text": "The second choice is correct.",
         "startMs": 100,
-        "endMs": 3162,
+        "endMs": 2077,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "First add twenty, giving two hundred and twenty.",
-        "startMs": 3162,
-        "endMs": 6224,
+        "text": "Ten percent of two hundred dollars is twenty dollars.",
+        "startMs": 2077,
+        "endMs": 5636,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Then subtract ten percent of that: twenty-two dollars.",
-        "startMs": 6224,
-        "endMs": 9286,
+        "text": "The bicycle now costs two hundred and twenty dollars.",
+        "startMs": 5636,
+        "endMs": 9195,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Different starting amounts.",
-        "startMs": 9286,
-        "endMs": 10434,
+        "text": "Ten percent of this new price is twenty-two dollars.",
+        "startMs": 9195,
+        "endMs": 12755,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Different changes.",
-        "startMs": 10434,
-        "endMs": 11200,
+        "text": "Subtract twenty-two dollars.",
+        "startMs": 12755,
+        "endMs": 13941,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "The final price is one hundred and ninety-eight dollars.",
+        "startMs": 13941,
+        "endMs": 17500,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "ready": false,
     "provisional": true
   },
@@ -519,85 +512,99 @@
     "provisional": true
   },
   "logic-practice": {
-    "text": "Try that skill on a claim: all squares are blue. Which would disprove it? A blue square, a red circle, or a red square? Pause and choose the strongest test.",
+    "text": "Someone makes a claim. All squares are blue. Look at the four shapes. Which one would prove that claim wrong? Choose one.",
     "src": "discovery/logic-practice.m4a",
-    "duration": 11.7,
+    "duration": 8.8,
     "captions": [
       {
-        "text": "Try that skill on a claim: all squares are blue.",
+        "text": "Someone makes a claim.",
         "startMs": 100,
-        "endMs": 3933,
+        "endMs": 1664,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Which would disprove it?",
-        "startMs": 3933,
-        "endMs": 5467,
+        "text": "All squares are blue.",
+        "startMs": 1664,
+        "endMs": 3227,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "A blue square, a red circle, or a red square?",
-        "startMs": 5467,
-        "endMs": 9300,
+        "text": "Look at the four shapes.",
+        "startMs": 3227,
+        "endMs": 5182,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Pause and choose the strongest test.",
-        "startMs": 9300,
-        "endMs": 11600,
+        "text": "Which one would prove that claim wrong?",
+        "startMs": 5182,
+        "endMs": 7918,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": "Choose one.",
+        "startMs": 7918,
+        "endMs": 8700,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "ready": false,
     "provisional": true
   },
   "logic-practice-answer": {
-    "text": "A red square. It is a square, but it is not blue. One counterexample is enough to disprove this claim. Do not just look for support. Look for what could prove you wrong.",
+    "text": "The red square proves the claim wrong. It is a square of a different colour. The blue square fits the claim, and neither circle tells us anything about squares. One counterexample is enough.",
+    "captionPhrases": [
+      "The red square proves the claim wrong.",
+      "It is a square of a different colour.",
+      "The blue square fits the claim,",
+      "and neither circle tells us anything about squares.",
+      "One counterexample is enough."
+    ],
     "src": "discovery/logic-practice-answer.m4a",
-    "duration": 12.8,
+    "duration": 13.2,
     "captions": [
       {
-        "text": "A red square.",
+        "text": "The red square proves the claim wrong.",
         "startMs": 100,
-        "endMs": 1245,
+        "endMs": 2858,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "It is a square, but it is not blue.",
-        "startMs": 1245,
-        "endMs": 4682,
+        "text": "It is a square of a different colour.",
+        "startMs": 2858,
+        "endMs": 6009,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "One counterexample is enough to disprove this claim.",
-        "startMs": 4682,
-        "endMs": 7736,
+        "text": "The blue square fits the claim,",
+        "startMs": 6009,
+        "endMs": 8373,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Do not just look for support.",
-        "startMs": 7736,
-        "endMs": 10027,
+        "text": "and neither circle tells us anything about squares.",
+        "startMs": 8373,
+        "endMs": 11524,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Look for what could prove you wrong.",
-        "startMs": 10027,
-        "endMs": 12700,
+        "text": "One counterexample is enough.",
+        "startMs": 11524,
+        "endMs": 13100,
         "timestampMs": null,
         "confidence": null
       }
     ],
-    "captionTiming": "Approximate phrase timings, weighted by word count; not forced-aligned.",
+    "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
     "ready": false,
     "provisional": true
   }

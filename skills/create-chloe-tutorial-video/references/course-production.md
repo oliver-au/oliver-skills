@@ -8,7 +8,7 @@ Inventory the source sections before authoring. Keep a mapping from each source 
 
 Read tables and diagrams as well as prose. Solve the examples independently. Record repairs to ambiguous rules, missing assumptions, incorrect arithmetic, and conflicting answer keys. For reasoning problems, preserve exact quantifiers, inclusive/exclusive alternatives, exhaustive route assumptions, position/facing conventions, interval boundaries, and the order of operations.
 
-For a large question bank, separate authoring from a fresh solution pass. Verify all four options: one intended best answer, meaningful distractors, and enough information in the stem or displayed diagram. Enumeration is useful for finite arrangements, truth tables, cube orientations, and minimum-cost combinations.
+For Writing, review each prompt, model and fresh response against its intended audience, purpose and task, allowing more than one valid approach. For a large question bank, separate authoring from a fresh solution pass. For selected-response items, verify every option in the section’s format: one intended best answer, meaningful distractors, and enough information in the stem or displayed diagram. Enumeration is useful for finite arrangements, truth tables, cube orientations, and minimum-cost combinations.
 
 ## Keep the explanation visual
 

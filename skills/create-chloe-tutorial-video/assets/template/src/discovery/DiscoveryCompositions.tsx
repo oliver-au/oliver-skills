@@ -7,6 +7,7 @@ import {MathFall} from './math/MathFall';
 import {MathInsight} from './math/MathInsight';
 import {MathPractice} from './math/MathPractice';
 import {LogicVideo,logicDurationFrames,logicPracticeFrames,LogicHook,LogicGuess,LogicTest,LogicReverse,LogicReveal,LogicPractice} from './LogicVideo';
+import {WritingVideo,writingDurationFrames,writingScenes} from './WritingVideo';
 import {sceneFrames} from './Shared';
 import {CubeVideo,cubeDurationFrames,cubeSceneFrames,CUBE_SCENES} from './CubeVideo';
 import {GateWalkStudy} from './studies/pool/GateWalkStudy';
@@ -20,6 +21,10 @@ export const DiscoveryCompositions=()=> <Folder name="Chloe-Discovery">
  <Composition id="Chloe-Test-The-Rule" component={LogicVideo} width={1920} height={1080} fps={30} durationInFrames={logicDurationFrames()} />
  <Composition id="Chloe-The-Story-You-Added" component={ReadingVideo} width={1920} height={1080} fps={30} durationInFrames={readingDurationFrames()} />
  <Composition id="Chloe-Far-Apart-Trap" component={CubeVideo} width={1920} height={1080} fps={30} durationInFrames={cubeDurationFrames()} />
+ <Composition id="Chloe-Write-for-Your-Reader" component={WritingVideo} width={1920} height={1080} fps={30} durationInFrames={writingDurationFrames()}/>
+ <Folder name="Writing-scenes">
+  {writingScenes.map(({id,View,tail})=><Composition key={id} id={id} component={View} defaultProps={{id}} width={1920} height={1080} fps={30} durationInFrames={sceneFrames(id,30,tail)}/>)}
+ </Folder>
  <Folder name="Cube-scenes">
   {CUBE_SCENES.map(([id,,Scene])=><Composition key={id} id={`Cube-${id.replace('cube-','')}`} component={Scene} width={1920} height={1080} fps={30} durationInFrames={cubeSceneFrames(id)} />)}
  </Folder>

@@ -5,6 +5,7 @@ import {ReadingVideo,readingDurationFrames} from './discovery/ReadingVideo';
 import {MathVideo,mathDurationFrames} from './discovery/MathVideo';
 import {LogicVideo,logicDurationFrames} from './discovery/LogicVideo';
 import {CubeVideo,cubeDurationFrames} from './discovery/CubeVideo';
+import {WritingVideo,writingDurationFrames} from './discovery/WritingVideo';
 import {isNarrationReady} from './discovery/Shared';
 import './styles.css';
 
@@ -13,6 +14,7 @@ const lessons=[
  {id:'maths',audioPrefix:'math-',subject:'Maths',title:'The percentage trap.',copy:'A price rises 20%, then falls 20%. Watch why the changes do not cancel.',component:MathVideo,frames:mathDurationFrames(),tag:'SAMPLE 01'},
  {id:'thinking',audioPrefix:'logic-',subject:'Thinking skills',title:'Test the rule.',copy:'Challenge a tempting number pattern and discover what makes a useful test.',component:LogicVideo,frames:logicDurationFrames(),tag:'SAMPLE 02'},
  {id:'spatial',audioPrefix:'cube-',subject:'Spatial reasoning',title:'The far-apart trap.',copy:'Follow the star and heart as a paper net folds into a cube.',component:CubeVideo,frames:cubeDurationFrames(),tag:'SAMPLE 03'},
+ {id:'writing',audioPrefix:'writing-',subject:'Writing',title:'Write for your reader.',copy:'Revise a library notice, then write a friendly email for a different reader.',component:WritingVideo,frames:writingDurationFrames(),tag:'SAMPLE 04'},
 ] as const;
 const duration=(frames:number)=>{const seconds=Math.round(frames/30);return `${Math.floor(seconds/60)}:${String(seconds%60).padStart(2,'0')}`;};
 type LessonId=typeof lessons[number]['id'];

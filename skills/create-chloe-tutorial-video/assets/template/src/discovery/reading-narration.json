@@ -228,48 +228,48 @@
     "ready": false
   },
   "reading-practice-answer": {
-    "text": "A fits both clues. Noah probably bought food at the canteen instead of eating his packed lunch. We have no clue that he forgot his money, packed a friend's lunch, or broke his lunchbox.",
+    "text": "A fits both clues. Noah probably bought food at the canteen. His packed lunch was still untouched. The passage gives no evidence for a broken lunchbox. It gives no clue about forgotten money or a friend's lunch.",
     "src": "discovery/reading-practice-answer.m4a",
-    "duration": 13.6,
+    "duration": 14.8,
     "captions": [
       {
         "text": "A fits both clues.",
         "startMs": 100,
-        "endMs": 1676,
+        "endMs": 1678,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "Noah probably bought food at the canteen instead of eating his packed",
-        "startMs": 1676,
-        "endMs": 6406,
+        "text": "Noah probably bought food at the canteen.",
+        "startMs": 1678,
+        "endMs": 4441,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "lunch.",
-        "startMs": 6406,
-        "endMs": 6800,
+        "text": "His packed lunch was still untouched.",
+        "startMs": 4441,
+        "endMs": 6808,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "We have no clue that he forgot his money, packed a friend's lunch, or",
-        "startMs": 6800,
-        "endMs": 12318,
+        "text": "The passage gives no evidence for a broken lunchbox.",
+        "startMs": 6808,
+        "endMs": 10359,
         "timestampMs": null,
         "confidence": null
       },
       {
-        "text": "broke his lunchbox.",
-        "startMs": 12318,
-        "endMs": 13500,
+        "text": "It gives no clue about forgotten money or a friend's lunch.",
+        "startMs": 10359,
+        "endMs": 14700,
         "timestampMs": null,
         "confidence": null
       }
     ],
     "captionTiming": "Approximate phrase timings weighted by word count; not forced-aligned.",
-    "provisional": true,
-    "ready": false
+    "ready": false,
+    "provisional": true
   }
 }

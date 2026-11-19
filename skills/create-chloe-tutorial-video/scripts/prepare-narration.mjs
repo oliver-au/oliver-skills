@@ -14,6 +14,7 @@ const HELP=`node prepare-narration.mjs --project ./lesson --input ./narration.js
   [--host http://127.0.0.1:11434] [--wpm 150]
   [--ffmpeg /path/to/ffmpeg] [--ffprobe /path/to/ffprobe]
 Input: {"hook":{"text":"Spoken words"}} or [{"id":"hook","text":"Spoken words"}].
+Optional captionPhrases lists exact spoken phrases in order, up to 70 characters each.
 --draft writes estimated timings with ready:false and makes no service calls.
 --prepare-only consumes <project>/<raw-dir>/<id>.wav instead of synthesizing.`;
 const {values}=parseArgs({options:{
@@ -29,9 +30,18 @@ function atomicJson(file,value){
   try{fs.writeFileSync(tmp,JSON.stringify(value,null,2)+'\n');fs.renameSync(tmp,file);}
   finally{fs.rmSync(tmp,{force:true});}
 }
-function captions(text,duration){
+function captionPhrases(text,authored){
+  const normalise=s=>s.trim().replace(/\s+/g,' ');
+  if(authored!==undefined){
+    if(!Array.isArray(authored)||!authored.length||authored.some(p=>typeof p!=='string'||!normalise(p)||normalise(p).length>70)){
+      throw new Error('Each authored caption phrase must contain 1 to 70 characters.');
+    }
+    const phrases=authored.map(normalise);
+    if(phrases.join(' ')!==normalise(text))throw new Error('Authored caption phrases must reproduce the complete spoken text in order.');
+    return phrases;
+  }
   const phrases=[];
-  for(const sentence of text.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[text]){
+  for(const sentence of normalise(text).split(/(?<=[.!?])\s+/u)){
     let line='';
     for(const word of sentence.trim().split(/\s+/)){
       if(word.length>70)throw new Error('A narration word exceeds 70 characters; use speakable text.');
@@ -39,6 +49,9 @@ function captions(text,duration){
     }
     if(line)phrases.push(line);
   }
+  return phrases;
+}
+function captions(phrases,duration){
   const weights=phrases.map(p=>p.split(/\s+/).length),total=weights.reduce((a,b)=>a+b,0);
   const inset=Math.min(100,duration*1000*.05),span=duration*1000-inset*2;let elapsed=0;
   return phrases.map((text,i)=>{
@@ -109,11 +122,12 @@ async function main(){
   if(!input||typeof input!=='object')throw new Error('Input must be an array or an object keyed by clip ID.');
   const entries=Array.isArray(input)?input:Object.entries(input).map(([id,item])=>({...item,id}));
   if(!entries.length)throw new Error('Input must contain at least one narration clip.');
-  const ids=new Set();
+  const phrasesById=new Map();
   for(const entry of entries){
-    if(!entry||typeof entry.id!=='string'||!/^[a-z0-9][a-z0-9_-]{0,79}$/.test(entry.id)||ids.has(entry.id))throw new Error('Clip IDs must be unique lowercase letters, digits, hyphens or underscores (up to 80 characters).');
+    if(!entry||typeof entry.id!=='string'||!/^[a-z0-9][a-z0-9_-]{0,79}$/.test(entry.id)||phrasesById.has(entry.id))throw new Error('Clip IDs must be unique lowercase letters, digits, hyphens or underscores (up to 80 characters).');
     if(typeof entry.text!=='string'||!entry.text.trim())throw new Error(`Missing spoken text for ${entry.id}.`);
-    ids.add(entry.id);entry.text=entry.text.trim();captions(entry.text,Math.max(1,entry.text.split(/\s+/).length/wpm*60));
+    entry.text=entry.text.trim();
+    phrasesById.set(entry.id,captionPhrases(entry.text,entry.captionPhrases));
   }
   let manifest={};
   if(fs.existsSync(manifestPath)){
@@ -123,7 +137,7 @@ async function main(){
   const timing='Approximate phrase timings weighted by word count; not forced-aligned.';
   const metadata=(entry,duration,ready,src)=>{
     const {id,...previous}=entry;
-    return {...previous,text:entry.text,src,duration,captions:captions(entry.text,duration),captionTiming:timing,ready,provisional:!ready};
+    return {...previous,text:entry.text,src,duration,captions:captions(phrasesById.get(id),duration),captionTiming:timing,ready,provisional:!ready};
   };
   if(values.draft){
     for(const entry of entries){const duration=Math.ceil(entry.text.split(/\s+/).length/wpm*600)/10;manifest[entry.id]=metadata(entry,duration,false,`discovery/${entry.id}.m4a`);}

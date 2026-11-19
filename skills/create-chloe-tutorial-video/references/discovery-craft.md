@@ -19,7 +19,7 @@ Use these as a planning guide. Combine or omit beats to fit the idea. Protect th
 | 3. Test it | 10–20 s | The object answers, not the narrator. | A real transformation: fold, regroup, test, connect. The reveal is a visual event; narration reacts to it. |
 | 4. Why it fooled us | 10–15 s | Name the trap and show its mechanism. | Same object, same colours. A memorable trap name. |
 | 5. But wait (optional) | 8–15 s | A second surprise that deepens the idea. | Only when it adds understanding: an edge case, a shortcut that fails, the rule working somewhere unexpected. |
-| 6. Exam bridge | 15–25 s + pause | The same idea in real test format. | Four-option layout matching current official practice, a method that fits about one minute, and a reason for rejecting each distractor. |
+| 6. Exam bridge | As the question requires | Apply the idea in the selected section. | Match the official response format. For Writing, set an open task with purpose and audience. For multiple choice, check the alternatives against the givens. |
 | 7. Your turn | 10–15 s + pause | Transfer: new surface, same deep structure. | Different numbers, story or shape. Reveal through the visual, not a text answer. |
 | 8. Pocket rule | ≤ 8 s | One line to keep. | A short, accurate line with its necessary conditions. |
 

@@ -10,7 +10,7 @@ Read the full narration and beat sheet as if you were a 10-year-old hearing it o
 2. **Tempting answer.** When a misconception drives the example, does the script explain its appeal? Can Chloe attempt fresh practice without a cue?
 3. **Visible contradiction.** Does a visual event — not a sentence — show that the tempting answer fails?
 4. **Mechanism.** After the reveal, could she explain *why* in her own words, using the same object?
-5. **Exam bridge.** Is there a question in current official test format, with a method that fits about a minute and a reason for each wrong option?
+5. **Exam bridge.** Does the response match the chosen section and cohort? For a multiple-choice bridge, can Chloe eliminate the distractors from the givens? For Writing, can two different responses meet the brief?
 6. **Transfer.** Does the practice change the surface (numbers, story, shape) but keep the deep structure?
 7. **Pocket rule.** Is it short and accurate when remembered on its own? Test a case just outside its conditions.
 8. **Language.** Average sentence ≤ 15 words? Every term a Year 5 child knows or is defined with a picture? Australian spelling?

@@ -35,6 +35,8 @@ The processor uses FFmpeg and ffprobe from PATH, or the project's installed Remo
 
 For a single local clip, `node scripts/tts-local.mjs --text "Spoken words" --out ./lesson/work/narration-raw/hook.wav` writes a 24 kHz mono WAV. Its cache is keyed by text, model, voice and local endpoint.
 
+If a cue break would separate a negative from its claim, or a number from its unit, use short self-contained sentences or set `captionPhrases` on the clip. Each entry is a complete display phrase of up to 70 characters. Joining them with spaces must reproduce the spoken text exactly. Review each cue in isolation on the rendered video.
+
 ## Checks and delivery
 
 The preparation script measures duration with ffprobe, normalizes speech toward -18 LUFS with headroom, and creates AAC mono audio at 24 kHz. It decodes each result and rejects clipping, invalid samples and effectively silent output. `ready:true` is committed only after the complete requested batch passes; failures leave the previous manifest intact.

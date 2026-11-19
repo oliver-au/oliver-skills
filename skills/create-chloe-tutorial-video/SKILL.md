@@ -1,6 +1,6 @@
 ---
 name: create-chloe-tutorial-video
-description: Create narrated Chloe tutorial videos from questions and knowledge points, teaching misconception-first with animated evidence, prediction pauses, a test-style question, and fresh practice. Use for maths, thinking skills, reading, and similar learning explanations in Chloe's established visual style. Includes editable Remotion templates and a browser review player.
+description: Create narrated Chloe tutorial videos from questions and knowledge points, teaching misconception-first with animated evidence, prediction pauses, a test-style question, and fresh practice. Use for Reading, Mathematical Reasoning, Thinking Skills and open-response Writing, and similar learning explanations in Chloe's established visual style. Includes editable Remotion templates and a browser review player.
 ---
 
 # Create Chloe tutorial videos
@@ -9,11 +9,11 @@ Turn the user's questions and knowledge points into a complete, correct lesson i
 
 ## Start from the learning task
 
-Use the questions, diagrams, answer choices, correct answers, knowledge points, age, language, and requested output supplied by the user. Plain text is sufficient; [the input example](references/lesson-input.json) is an optional convenient format. Do not require the user to fill a schema.
+Use the supplied prompts, passages, diagrams, knowledge points, age, language and requested output. For selected-response tasks include the options and proposed key. For a Writing task include the original brief and any draft to improve. Plain text is sufficient; [the input example](references/lesson-input.json) is an optional convenient format. Do not require the user to fill a schema.
 
 When unspecified, assume Australian English, a Year 5–6 learner (about 10–12) preparing for the NSW Selective test, Chloe Selective branding, one main idea per lesson, and roughly 2–3 minutes. State assumptions briefly and continue. Resolve a missing diagram, materially ambiguous question, or contradictory answer before explaining it. Solve each problem independently; a supplied answer key is evidence to check, not a reason to preserve a mistake.
 
-For a whole textbook or multi-section course, also read [course production](references/course-production.md).
+For NSW selective preparation, choose the section using the [cohort and section guide](references/nsw-selective-sections.md). For Writing, collect the prompt, audience, purpose, facts to keep and a fresh open response. For a whole textbook or multi-section course, also read [course production](references/course-production.md).
 
 Read [the discovery craft](references/discovery-craft.md) and [the style specification](references/style.md) before authoring. Use [the lesson patterns](references/lesson-patterns.md) to choose a meaningful visual explanation. Keep the user's requested subject and difficulty; do not substitute one of the bundled examples for their question.
 
@@ -27,7 +27,7 @@ node <skill-directory>/scripts/scaffold.mjs --out <new-project-directory>
 
 Inspect the generated package scripts, install the declared dependencies with the available package manager, and start Studio using its `dev` script. Open the local preview as soon as the project runs, before making substantial scene edits. Use any available Remotion tooling instructions for environment-specific details; this package contains its own source and does not require another skill to be installed.
 
-The starter includes maths, thinking, reading, and spatial (3D cube-net) examples, shared typography, colours, captions, timing helpers, and a browser player. Reuse the shell and animation patterns. Create separate authored scene components for the new lesson, register the full lesson and independently previewable scenes, and update the review player to select the new lesson. Retain unrelated existing lessons.
+The starter includes Reading, Mathematical Reasoning, Thinking Skills, Writing and a 3D cube-net study, shared typography, colours, captions, timing helpers, and a browser player. Reuse the shell and animation patterns. Create separate authored scene components for the new lesson, register the full lesson and independently previewable scenes, and update the review player to select the new lesson. Retain unrelated existing lessons.
 
 The example audio is intentionally not bundled. The starter labels missing narration as pending. Do not remove that indication or report a narrated video as complete until real audio exists and plays.
 
@@ -40,7 +40,7 @@ Use a tempting misconception when the question supports one. Let the learner pre
 3. **Test it**: the object answers through a real transformation; narration reacts to the visual event.
 4. **Why it fooled us**: name the trap and show its mechanism on the same object.
 5. **But wait** (optional): a second surprise that deepens the idea.
-6. **Exam bridge**: the idea in current official test format, a method that fits about a minute, and why each distractor fails.
+6. **Exam bridge**: a fresh application in the section’s published response format. Explain each distractor in a multiple-choice item. For Writing, retain an open prompt and model a deliberate revision for its reader.
 7. **Your turn**: new surface, same structure; pause; reveal through the visual.
 8. **Pocket rule**: a short reminder that retains every condition needed for the rule to work. Test it against a near miss.
 
@@ -60,7 +60,7 @@ Use frame-driven animation with the composition's FPS. Keep total duration, scen
 
 ## Verify and deliver
 
-Follow [the review checks](references/review-checks.md). Typecheck/build the project, inspect representative actual frames, and exercise the preview's play, pause, replay, and lesson selection. Check the exported or hosted lesson at the prediction and reveal, and watch the transition in motion. Verify the first spoken question against the actual timeline. Solve the new answer and practice answer from the learner’s visible clues. For multi-lesson work, use the [three independent course checks](references/course-production.md#three-independent-checks-for-a-narrated-course) to reconcile the solution, encoded narration and final rendered lesson.
+Follow [the review checks](references/review-checks.md). Typecheck/build the project, inspect representative actual frames, and exercise the preview's play, pause, replay, and lesson selection. Check the exported or hosted lesson at the prediction and reveal, and watch the transition in motion. For every spoken beat preserve an approved script and export the actual learner-facing captions and transcript alongside the final media. Supply the independent evaluator with the lesson objective, original givens, source or original-work provenance, and section. Verify the first spoken question against the actual timeline. Solve the new answer and practice answer from the learner’s visible clues. For multi-lesson work, use the [three independent course checks](references/course-production.md#three-independent-checks-for-a-narrated-course) to reconcile the solution, encoded narration and final rendered lesson.
 
 Deliver a preview link, duration, editable source location, and any material limitation. Default to a local interactive preview. Render an MP4 when the user asks for an export. A localhost link only works on its host computer; when the user requests remote or public review, build the standalone player and use an available hosting workflow. Do not expose Studio or the workspace, or publish without the user's request. Include only the lesson assets in a public build. Do not reuse another project's hosting identity, credentials, or audience.
 
@@ -68,4 +68,4 @@ Deliver a preview link, duration, editable source location, and any material lim
 
 > Use $create-chloe-tutorial-video. Knowledge point: adding fractions requires equal-sized parts. Question: Mia eats 1/3 of a pizza and Noah eats 1/4 of the same pizza. What fraction did they eat altogether? Explain why 2/7 is tempting but wrong. Create a narrated lesson with a new practice question for a Year 6 learner.
 
-A strong result opens on the pizza, lets the learner commit to 2/7, shows the slices refusing to line up, re-cuts both into twelfths on screen, names *the different-sized-pieces trap*, bridges to a four-option test-style question, and ends with a pocket rule such as "Same size pieces first, then add."
+A strong result opens on the pizza, lets the learner commit to 2/7, shows the slices refusing to line up, re-cuts both into twelfths on screen, names *the different-sized-pieces trap*, bridges to a five-option Mathematical Reasoning question, and ends with a pocket rule such as "Same size pieces first, then add."

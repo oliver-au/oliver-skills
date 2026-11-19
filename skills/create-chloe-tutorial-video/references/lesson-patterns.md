@@ -7,7 +7,8 @@ Read the example nearest the subject; combine mechanisms when helpful. These are
 | Mathematical reasoning | `MathVideo.tsx`, `math/` | Predict a result, animate quantities, expose a changed base or mistaken operation, then transfer to different numbers. |
 | Thinking skills | `LogicVideo.tsx`, `logic/` | State a hypothesis, try supporting and challenging examples, change one property at a time, and identify what the tests establish. |
 | Reading | `ReadingVideo.tsx`, `reading/` | Read a compact passage, choose an inference, highlight separate clues, connect them to a likely conclusion, and reject unsupported added details. |
-| Spatial reasoning | `CubeVideo.tsx`, `cube/` | Fold, rotate or reflect a real 3D model on screen, let the learner commit to the intuitive answer, then watch the model contradict it. Derive every view from the model. |
+| Writing | `WritingVideo.tsx`, `writing/` | Identify whom the prompt addresses, compare a draft and a purposeful revision, then let the learner type a fresh response. |
+| Spatial reasoning within a section | `CubeVideo.tsx`, `cube/` | Fold, rotate or reflect a real 3D model on screen, let the learner commit to the intuitive answer, then watch the model contradict it. Derive every view from the model. |
 
 For a folding or rotation problem that depends on depth, use a genuine 3D model (CSS `transform-style: preserve-3d` with frame-driven rotations, or an equivalent library) rather than hand-drawn before/after pictures. Fold the net hinge by hinge so the learner can track a face. Generate answer-option views from the same folded model so labels, letter orientation and mirror images are correct by construction; build impossible distractors by changing one face, and state which rule it breaks. Keep the flat net visible beside the cube whenever a question refers to it. Teach the fast rule the test needs (for cube nets: in a straight line of three squares, the two ends are opposite) and show it as a fold, not a sentence.
 
@@ -19,11 +20,13 @@ For thinking skills, distinguish a chosen hidden rule from a uniquely proved rul
 
 For reading, distinguish stated fact, well-supported inference, and unsupported detail. A likely inference need not be certain. Write distractors that reveal the intended misunderstanding without making the passage ambiguous. Do not invent quotations or claim that an author's intent is explicitly stated when it is inferred.
 
+For Writing, keep the prompt on screen during planning. Mark details the writer must preserve and choices the writer can make. Compare two defensible responses by naming their effect on this reader. Prompt an independent typed response before showing any example. Check the actual sentences for relevance, clarity, structure, language, grammar and punctuation.
+
 For other subjects, select an observable mechanism: a timeline, map, causal chain, sorting operation, annotated diagram, or comparison. Preserve the question/prediction/evidence/transfer rhythm rather than forcing a number animation into every topic.
 
 ## New lesson brief
 
-Convert the user's input into a compact working brief: cold-open object, question, tempting answer and why it feels right, correct reasoning, trap name, visual evidence, exam-bridge question with distractor reasons, transfer question with its answer, pocket rule, and narration. Keep the original wording when accuracy or exam fidelity depends on it. Mark newly written teaching questions as original examples.
+Convert the user's input into a compact working brief: cold-open object, question, tempting answer and why it feels right, correct reasoning, trap name, visual evidence, exam-bridge item and transfer task with their independently checked solutions or, for Writing, their briefs and response criteria, pocket rule, and narration. Keep the original wording when accuracy or exam fidelity depends on it. Mark newly written teaching questions as original examples.
 
 Use the user's requested duration. Otherwise target about 280–380 spoken words for a 2–3 minute lesson, then let measured narration and thinking pauses determine the final runtime. Split several unrelated knowledge points into separate lessons when that improves learning. Do not pad or truncate a correct explanation merely to match an example's exact length.
 
